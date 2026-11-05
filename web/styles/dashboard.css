@@ -1,0 +1,753 @@
+/* =============================================================================
+   dashboard.css — PWA Dashboard Styles
+   Scripture & Quiet-Time Suite
+
+   All color values are referenced via CSS custom properties defined in base.css.
+   No hardcoded hex values in component rules.
+   Responsive: desktop sidebar nav + mobile hamburger / bottom bar.
+   Requirements: 9.5, 9.6, 11.3, 11.4, 11.6
+   ============================================================================= */
+
+/* ---------------------------------------------------------------------------
+   1. Box-sizing reset
+   --------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------------------------------------------------------------------------
+   2. Global focus indicator (accessibility — task 12.1)
+   --------------------------------------------------------------------------- */
+
+:focus-visible {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------------------
+   3. Base / body
+   --------------------------------------------------------------------------- */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  /* Requirement 9.5: min-width 320px prevents horizontal scroll */
+  min-width: 320px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  min-height: 100vh;
+  transition:
+    background-color var(--transition-normal),
+    color var(--transition-normal);
+}
+
+/* ---------------------------------------------------------------------------
+   4. App shell layout
+   Desktop: sidebar nav (240px) + main content fills rest
+   Mobile: top header + main content + bottom nav bar
+   --------------------------------------------------------------------------- */
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "nav-desktop main";
+  min-height: 100vh;
+}
+
+/* ---------------------------------------------------------------------------
+   5. Desktop navigation sidebar (hidden on mobile)
+   --------------------------------------------------------------------------- */
+
+.nav-desktop {
+  grid-area: nav-desktop;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  padding: var(--space-lg) 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal);
+}
+
+.nav-desktop__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0 var(--space-lg) var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-md);
+}
+
+.nav-desktop__logo {
+  font-size: 1.5rem;
+  color: var(--color-accent);
+}
+
+.nav-desktop__title {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+.nav-desktop__links {
+  list-style: none;
+  flex: 1;
+  padding: 0;
+}
+
+.nav-desktop__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-lg);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition:
+    color var(--transition-fast),
+    background-color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.nav-desktop__link:hover {
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+.nav-desktop__link--active {
+  color: var(--color-accent);
+  border-left-color: var(--color-accent);
+  background-color: var(--color-background);
+  font-weight: 600;
+}
+
+.nav-desktop__footer {
+  padding: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+  margin-top: auto;
+}
+
+/* ---------------------------------------------------------------------------
+   6. Mobile header (hidden on desktop)
+   --------------------------------------------------------------------------- */
+
+.header-mobile {
+  display: none; /* shown via media query below */
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  grid-column: 1 / -1;
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal);
+}
+
+.header-mobile__title {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+/* Hamburger button */
+.hamburger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--space-xs);
+  border-radius: var(--radius-sm);
+}
+
+.hamburger-btn__bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--color-text-primary);
+  border-radius: 2px;
+  transition: background-color var(--transition-fast);
+}
+
+.hamburger-btn:hover .hamburger-btn__bar {
+  background-color: var(--color-accent);
+}
+
+/* ---------------------------------------------------------------------------
+   7. Mobile slide-out menu
+   --------------------------------------------------------------------------- */
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100%;
+  background-color: var(--color-surface);
+  z-index: 200;
+  padding: var(--space-xl) var(--space-md);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform var(--transition-normal);
+}
+
+.mobile-menu--open {
+  transform: translateX(0);
+}
+
+.mobile-menu__links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.mobile-menu__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: var(--font-size-md);
+  font-weight: 500;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.mobile-menu__link:hover,
+.mobile-menu__link--active {
+  color: var(--color-accent);
+  background-color: var(--color-background);
+  font-weight: 600;
+}
+
+/* Overlay behind mobile menu */
+.mobile-menu-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 150;
+}
+
+/* ---------------------------------------------------------------------------
+   8. Bottom navigation bar (mobile only)
+   --------------------------------------------------------------------------- */
+
+.nav-bottom {
+  display: none; /* shown via media query below */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  z-index: 100;
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal);
+}
+
+.nav-bottom__links {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: var(--space-xs) 0;
+}
+
+.nav-bottom__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+  min-width: 56px;
+}
+
+.nav-bottom__icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.nav-bottom__link--active {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+/* ---------------------------------------------------------------------------
+   9. Main content area
+   --------------------------------------------------------------------------- */
+
+.main-content {
+  grid-area: main;
+  padding: var(--space-xl);
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+/* ---------------------------------------------------------------------------
+   10. Views — only one visible at a time
+   --------------------------------------------------------------------------- */
+
+.view {
+  display: none;
+  animation: fadeIn 150ms ease;
+}
+
+.view--active,
+.view:not([hidden]) {
+  display: block;
+}
+
+/* Remove display:none when hidden attribute is present */
+.view[hidden] {
+  display: none !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* View header */
+.view-header {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.view-heading {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1.3;
+}
+
+.view-subheading {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-top: var(--space-xs);
+}
+
+/* ---------------------------------------------------------------------------
+   11. Verse cards (daily, catalog, bookmarks)
+   --------------------------------------------------------------------------- */
+
+.verse-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  max-width: 760px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  transition:
+    background-color var(--transition-normal),
+    border-color var(--transition-normal);
+}
+
+[data-theme="light"] .verse-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+[data-theme="dark"] .verse-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Loading skeleton state */
+.verse-card--loading {
+  min-height: 200px;
+  background: linear-gradient(
+    90deg,
+    var(--color-surface) 25%,
+    var(--color-border) 50%,
+    var(--color-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+.verse-reference {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: var(--space-sm);
+}
+
+.verse-text {
+  font-size: var(--font-size-md);
+  font-style: italic;
+  color: var(--color-text-primary);
+  line-height: 1.7;
+  border-inline-start: 3px solid var(--color-accent);
+  padding-inline-start: var(--space-md);
+  margin: var(--space-sm) 0;
+}
+
+.verse-translation {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+/* Translation bar — label + selector side by side */
+.daily-translation-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.translation-select {
+  padding: 2px var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    background-color var(--transition-normal);
+}
+
+.verse-reflection {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+  margin-bottom: var(--space-sm);
+}
+
+.verse-prompt {
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  padding: var(--space-sm) var(--space-md);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-background);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  line-height: 1.6;
+}
+
+/* Card action buttons row */
+.verse-card__actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-button-secondary-bg);
+  color: var(--color-button-secondary-text);
+  cursor: pointer;
+  font-size: var(--font-size-sm);
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.4;
+  transition:
+    background-color var(--transition-fast),
+    opacity var(--transition-fast);
+}
+
+.btn-action:hover {
+  opacity: 0.82;
+}
+
+.btn-action[aria-pressed="true"] {
+  background-color: var(--color-accent);
+  color: var(--color-button-text);
+  border-color: var(--color-accent);
+}
+
+.btn-action__confirm {
+  font-size: var(--font-size-sm);
+  color: var(--color-accent);
+  font-weight: 700;
+  visibility: hidden;
+}
+
+/* ---------------------------------------------------------------------------
+   12. Catalog view
+   --------------------------------------------------------------------------- */
+
+.catalog-filter {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.catalog-filter__label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.catalog-filter__select {
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: var(--font-size-sm);
+  cursor: pointer;
+  transition:
+    border-color var(--transition-fast),
+    background-color var(--transition-normal);
+}
+
+.catalog-group {
+  margin-bottom: var(--space-xl);
+}
+
+.catalog-group__heading {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: var(--space-md);
+  text-transform: capitalize;
+}
+
+.catalog-groups .verse-card {
+  margin-bottom: var(--space-md);
+}
+
+.catalog-empty {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: var(--space-lg) 0;
+}
+
+/* ---------------------------------------------------------------------------
+   13. Bookmarks view
+   --------------------------------------------------------------------------- */
+
+.bookmarks-list .verse-card {
+  margin-bottom: var(--space-md);
+}
+
+.bookmarks-empty {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  padding: var(--space-lg) 0;
+}
+
+/* ---------------------------------------------------------------------------
+   14. Configurator iframe embed
+   --------------------------------------------------------------------------- */
+
+.configurator-embed-wrapper {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.configurator-embed {
+  width: 100%;
+  height: 680px;
+  border: none;
+  display: block;
+}
+
+/* ---------------------------------------------------------------------------
+   15. Theme toggle button
+   --------------------------------------------------------------------------- */
+
+.btn-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-md);
+  background-color: var(--color-button-secondary-bg);
+  color: var(--color-button-secondary-text);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  width: 100%;
+  justify-content: flex-start;
+  transition:
+    background-color var(--transition-fast),
+    opacity var(--transition-fast);
+}
+
+.btn-theme-toggle:hover {
+  opacity: 0.82;
+}
+
+/* Icon-only variant used in mobile header */
+.btn-theme-toggle--icon-only {
+  width: auto;
+  padding: var(--space-xs);
+}
+
+.btn-theme-toggle--icon-only .btn-theme-toggle__label {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------
+   16. Update banner
+   --------------------------------------------------------------------------- */
+
+.update-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-accent);
+  color: var(--color-button-text);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.update-banner__message {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+.update-banner__btn {
+  padding: var(--space-xs) var(--space-md);
+  background-color: var(--color-button-text);
+  color: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------
+   17. Toast notification
+   --------------------------------------------------------------------------- */
+
+.toast {
+  position: fixed;
+  bottom: calc(var(--space-lg) + 56px); /* above bottom nav on mobile */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm) var(--space-lg);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  z-index: 300;
+  max-width: 90vw;
+  text-align: center;
+}
+
+.toast__message {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}
+
+/* ---------------------------------------------------------------------------
+   18. Responsive — mobile breakpoint (≤768px)
+       Requirement 9.6: mobile nav layout at ≤768px
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+  /* Collapse grid to single column; remove sidebar */
+  .app-shell {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header-mobile"
+      "main"
+      "nav-bottom";
+  }
+
+  /* Hide desktop sidebar */
+  .nav-desktop {
+    display: none;
+  }
+
+  /* Show mobile header */
+  .header-mobile {
+    display: flex;
+    grid-area: header-mobile;
+  }
+
+  /* Show bottom nav */
+  .nav-bottom {
+    display: block;
+    grid-area: nav-bottom;
+  }
+
+  /* Show mobile menu when open */
+  .mobile-menu,
+  .mobile-menu-overlay {
+    display: block;
+  }
+
+  /* Add padding to main content to clear bottom nav */
+  .main-content {
+    padding: var(--space-md);
+    padding-bottom: calc(var(--space-lg) + 56px); /* clearance for bottom bar */
+    min-height: calc(100vh - 56px); /* minus header */
+  }
+
+  /* Toast above bottom nav */
+  .toast {
+    bottom: calc(var(--space-sm) + 72px);
+  }
+}

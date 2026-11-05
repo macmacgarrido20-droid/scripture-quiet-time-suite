@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scripture & Quiet-Time</title>
+  <script src="newtab-init.js"></script>
+  <link rel="stylesheet" href="styles/newtab.css" />
+</head>
+<body>
+
+  <!-- ── top bar ──────────────────────────────────────────────────────── -->
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__cross" aria-hidden="true">✝</span>
+      <span class="topbar__title">Scripture &amp; Quiet-Time</span>
+    </div>
+    <button id="btn-toggle-theme" class="topbar__theme-btn" aria-label="Toggle theme" type="button">
+      <span id="theme-icon" aria-hidden="true">🌙</span>
+    </button>
+
+    <!-- Translation switcher -->
+    <div class="translation-switcher" role="group" aria-label="Bible translation">
+      <button class="trans-btn trans-btn--active" data-trans="NIV" type="button">NIV</button>
+      <button class="trans-btn" data-trans="ESV" type="button">ESV</button>
+      <button class="trans-btn" data-trans="MBB" type="button">MBB</button>
+    </div>
+  </header>
+
+  <!-- ── main ─────────────────────────────────────────────────────────── -->
+  <main class="page">
+
+    <!-- date chip -->
+    <p class="date-chip" id="date-chip"></p>
+
+    <!-- Google search bar -->
+    <form class="search-bar" id="search-form" action="https://www.google.com/search" method="GET" target="_top">
+      <span class="search-bar__icon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </span>
+      <input
+        class="search-bar__input"
+        type="text"
+        name="q"
+        placeholder="Search Google…"
+        autocomplete="off"
+        aria-label="Search Google"
+        id="search-input"
+      />
+      <button class="search-bar__btn" type="submit" aria-label="Submit search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </button>
+    </form>
+
+    <!-- verse card -->
+    <article class="verse-card verse-card--loading" id="verse-card" aria-live="polite">
+
+      <!-- loading state -->
+      <div id="verse-loading" class="verse-loading">
+        <span class="spinner" aria-hidden="true"></span>
+        <p>Loading today's verse…</p>
+      </div>
+
+      <!-- error state -->
+      <div id="verse-error" class="verse-error" hidden>
+        <p class="verse-error__icon" aria-hidden="true">📖</p>
+        <p id="error-message">Scripture unavailable.</p>
+      </div>
+
+      <!-- content -->
+      <div id="verse-content" class="verse-content" hidden>
+        <span id="verse-category" class="category-pill"></span>
+        <p id="verse-reference" class="verse-reference"></p>
+        <blockquote id="verse-text" class="verse-text"></blockquote>
+        <p id="verse-translation" class="verse-translation"></p>
+        <hr class="verse-divider" />
+        <div class="verse-section verse-section--prompt">
+          <p class="verse-section__label">
+            <span aria-hidden="true">🕊</span> Reflection
+          </p>
+          <p id="quiet-time-text" class="quiet-time-text"></p>
+        </div>
+      </div>
+    </article>
+
+    <!-- action bar -->
+    <div class="action-bar" role="group" aria-label="Verse actions">
+      <button id="btn-copy" class="btn btn--primary" type="button" aria-label="Copy verse to clipboard">
+        <span aria-hidden="true">📋</span>
+        <span class="btn-label">Copy</span>
+      </button>
+      <button id="btn-random" class="btn btn--secondary" type="button" aria-label="Load a random verse">
+        <span aria-hidden="true">🎲</span>
+        <span class="btn-label">Random</span>
+      </button>
+    </div>
+
+  </main>
+
+  <!-- ── footer ───────────────────────────────────────────────────────── -->
+  <footer class="page-footer">
+    <p>Every new tab, a moment with God.</p>
+  </footer>
+
+  <script type="module" src="newtab.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scripture Widget Configurator</title>
+
+  <!--
+    Apply stored theme preference before paint to prevent FOUC.
+    Uses localStorage key `sqts_theme` consistent with the Dashboard.
+  -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('sqts_theme');
+        if (stored === 'dark' || stored === 'light') {
+          document.documentElement.dataset.theme = stored;
+        }
+      } catch (e) {
+        // localStorage unavailable — stay with default 'light'
+      }
+    }());
+  </script>
+
+  <!-- CSS tokens (single source of truth) -->
+  <link rel="stylesheet" href="styles/base.css" />
+  <!-- Configurator layout styles -->
+  <link rel="stylesheet" href="styles/configurator.css" />
+</head>
+<body>
+
+  <div class="configurator-layout">
+
+    <!-- ------------------------------------------------------------------ -->
+    <!-- Header                                                              -->
+    <!-- ------------------------------------------------------------------ -->
+    <header class="configurator-header">
+      <h1 class="configurator-title">Scripture Widget Configurator</h1>
+      <p class="configurator-subtitle">
+        Customise your embed, preview it live, then copy the code to your site.
+      </p>
+    </header>
+
+    <!-- ------------------------------------------------------------------ -->
+    <!-- Main two-column area: controls | preview                           -->
+    <!-- ------------------------------------------------------------------ -->
+    <main class="configurator-main">
+
+      <!-- Controls panel -->
+      <section class="controls-panel" aria-label="Widget configuration controls">
+        <h2 class="controls-heading">Configuration</h2>
+
+        <!-- Theme control -->
+        <div class="control-group">
+          <label class="control-label" for="control-theme">Theme</label>
+          <select class="control-select" id="control-theme" name="theme" aria-label="Select theme">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+
+        <!-- Category control — options populated by configurator.js from verses.json -->
+        <div class="control-group">
+          <label class="control-label" for="control-category">Category</label>
+          <select class="control-select" id="control-category" name="category" aria-label="Select verse category">
+            <!-- Options inserted dynamically by configurator.js -->
+          </select>
+        </div>
+
+        <!-- Mode control -->
+        <div class="control-group">
+          <label class="control-label" for="control-mode">Display Mode</label>
+          <select class="control-select" id="control-mode" name="mode" aria-label="Select display mode">
+            <option value="daily">Daily (today's verse)</option>
+            <option value="random">Random</option>
+          </select>
+        </div>
+
+        <!-- Divider -->
+        <hr class="controls-divider" />
+
+        <!-- Embed code output -->
+        <div class="control-group">
+          <label class="control-label" for="embed-code-output">Embed Code</label>
+          <textarea
+            class="embed-code-textarea"
+            id="embed-code-output"
+            aria-label="Generated embed code"
+            aria-live="polite"
+            readonly
+            rows="4"
+          ></textarea>
+        </div>
+
+        <!-- Copy button -->
+        <button
+          class="btn-copy"
+          id="btn-copy"
+          type="button"
+          aria-label="Copy embed code to clipboard"
+        >
+          <span class="btn-copy__label" aria-hidden="true">Copy Embed Code</span>
+          <span class="btn-copy__copied" aria-hidden="true">Copied!</span>
+        </button>
+
+      </section>
+
+      <!-- Preview panel -->
+      <section class="preview-panel" aria-label="Live widget preview">
+        <h2 class="preview-heading">Live Preview</h2>
+
+        <div class="preview-frame-wrapper">
+          <iframe
+            id="preview-iframe"
+            class="preview-iframe"
+            title="Scripture widget live preview"
+            src="embed.html?theme=light&amp;category=&amp;mode=daily"
+            frameborder="0"
+            scrolling="auto"
+            aria-label="Live preview of the scripture widget"
+          ></iframe>
+        </div>
+
+        <p class="preview-note" aria-live="polite">
+          Preview updates automatically when you change any setting above.
+        </p>
+      </section>
+
+    </main>
+
+  </div><!-- /.configurator-layout -->
+
+  <!-- ES module — handles all configurator logic -->
+  <script type="module" src="configurator.js"></script>
+
+  <!--
+    Textarea sync script: keeps the embed-code-output textarea in sync
+    whenever the iframe src changes (i.e. after every control change).
+    This runs after configurator.js has wired its events.
+  -->
+  <script type="module">
+    import { buildEmbedCode } from './configurator.js';
+
+    // Sync the textarea whenever the iframe src updates.
+    // We observe the iframe's src attribute via MutationObserver.
+    const iframe = document.getElementById('preview-iframe');
+    const textarea = document.getElementById('embed-code-output');
+
+    function syncTextarea() {
+      // Derive current config from iframe src params
+      const url = new URL(iframe.src, window.location.href);
+      const cfg = {
+        theme: url.searchParams.get('theme') || 'light',
+        category: url.searchParams.get('category') || '',
+        mode: url.searchParams.get('mode') || 'daily',
+      };
+      textarea.value = buildEmbedCode(cfg);
+    }
+
+    // Initial sync
+    syncTextarea();
+
+    // Observe src attribute changes
+    const observer = new MutationObserver(syncTextarea);
+    observer.observe(iframe, { attributes: true, attributeFilter: ['src'] });
+  </script>
+
+</body>
+</html>

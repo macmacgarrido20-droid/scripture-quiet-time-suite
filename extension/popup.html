@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scripture & Quiet-Time</title>
+  <link rel="stylesheet" href="styles/popup.css" />
+</head>
+<body>
+  <main class="popup-wrapper" role="main">
+    <header class="popup-header">
+      <h1 class="popup-title">Scripture &amp; Quiet-Time</h1>
+    </header>
+
+    <!-- Verse Card -->
+    <article class="verse-card" id="verse-card" aria-live="polite" aria-atomic="true">
+      <!-- Loading state -->
+      <div class="verse-card__loading" id="verse-loading" aria-label="Loading verse…">
+        <p>Loading today's verse…</p>
+      </div>
+
+      <!-- Error state (hidden initially) -->
+      <div class="verse-card__error" id="verse-error" hidden>
+        <p class="error-message" id="error-message">Scripture unavailable. Please try again later.</p>
+      </div>
+
+      <!-- Verse content (hidden initially, shown after load) -->
+      <div class="verse-card__content" id="verse-content" hidden>
+        <p class="verse-reference" id="verse-reference"></p>
+        <blockquote class="verse-text" id="verse-text"></blockquote>
+        <div class="verse-quiet-time">
+          <h2 class="quiet-time-label">🕊 Reflection</h2>
+          <p class="quiet-time-text" id="quiet-time-text"></p>
+        </div>
+        <div class="verse-actions">
+          <button id="btn-random-popup" class="btn btn--secondary" type="button" aria-label="Show a random verse">
+            🎲 Random Verse
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <!-- Focus Timer -->
+    <section class="timer-section" id="timer-section" aria-label="Focus timer">
+      <div class="timer-display" id="timer-display" aria-live="polite" aria-atomic="true">
+        <span class="timer-count" id="timer-count">120</span>
+        <span class="timer-unit">seconds remaining</span>
+      </div>
+      <div class="timer-complete" id="timer-complete" hidden>
+        <p class="timer-complete__message">
+          ✅ Focus time complete. Well done!
+        </p>
+      </div>
+      <div class="timer-actions">
+        <button
+          id="btn-reset"
+          class="btn btn--reset"
+          aria-label="Reset focus timer to 120 seconds"
+          type="button"
+        >
+          🔄 Reset Timer
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

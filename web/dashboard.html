@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scripture & Quiet-Time Suite — Daily verses, catalog, bookmarks, and widget configurator." />
+  <title>Scripture & Quiet-Time Suite</title>
+
+  <!-- Web App Manifest for PWA installability -->
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <!-- CSS tokens (single source of truth for all theme variables) -->
+  <link rel="stylesheet" href="styles/base.css" />
+  <!-- Dashboard layout styles -->
+  <link rel="stylesheet" href="styles/dashboard.css" />
+</head>
+<body>
+
+  <!--
+    Inline theme-application script — MUST run before any CSS paint to prevent FOUC.
+    Reads sqts_theme from localStorage and sets data-theme on <html> synchronously.
+    Requirements: 11.3, 11.4, 11.6
+  -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('sqts_theme');
+        if (stored === 'dark' || stored === 'light') {
+          document.documentElement.dataset.theme = stored;
+        }
+        // If no stored theme, data-theme="light" set on <html> above is the default.
+      } catch (e) {
+        // localStorage unavailable — stay with default 'light'
+      }
+    }());
+  </script>
+
+  <!-- ====================================================================
+       App shell — entire layout
+       ==================================================================== -->
+  <div class="app-shell" id="app-shell">
+
+    <!-- ------------------------------------------------------------------
+         Desktop navigation (hidden on mobile via CSS media query)
+         Requirement 9.6: mobile nav shown at ≤768px; desktop nav hidden
+         ------------------------------------------------------------------ -->
+    <nav class="nav-desktop" aria-label="Main navigation">
+      <div class="nav-desktop__brand">
+        <span class="nav-desktop__logo" aria-hidden="true">✦</span>
+        <span class="nav-desktop__title">Scripture Suite</span>
+      </div>
+
+      <ul class="nav-desktop__links" role="list">
+        <li>
+          <a href="#view-daily"
+             class="nav-desktop__link nav-desktop__link--active"
+             data-view="daily"
+             aria-current="page"
+             role="button">
+            <span class="nav-icon" aria-hidden="true">☀</span>
+            <span class="nav-label">Today</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-catalog"
+             class="nav-desktop__link"
+             data-view="catalog"
+             role="button">
+            <span class="nav-icon" aria-hidden="true">📖</span>
+            <span class="nav-label">Catalog</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-bookmarks"
+             class="nav-desktop__link"
+             data-view="bookmarks"
+             role="button">
+            <span class="nav-icon" aria-hidden="true">🔖</span>
+            <span class="nav-label">Bookmarks</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-configurator"
+             class="nav-desktop__link"
+             data-view="configurator"
+             role="button">
+            <span class="nav-icon" aria-hidden="true">⚙</span>
+            <span class="nav-label">Configurator</span>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Theme toggle in sidebar footer -->
+      <div class="nav-desktop__footer">
+        <button
+          class="btn-theme-toggle"
+          id="btn-theme-toggle-desktop"
+          type="button"
+          aria-label="Toggle between light and dark theme"
+          aria-pressed="false">
+          <span class="btn-theme-toggle__icon" aria-hidden="true">◑</span>
+          <span class="btn-theme-toggle__label">Toggle Theme</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------
+         Mobile: top header bar with hamburger button
+         Requirement 9.6: shown at ≤768px
+         ------------------------------------------------------------------ -->
+    <header class="header-mobile" role="banner">
+      <button
+        class="hamburger-btn"
+        id="hamburger-btn"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span class="hamburger-btn__bar" aria-hidden="true"></span>
+        <span class="hamburger-btn__bar" aria-hidden="true"></span>
+        <span class="hamburger-btn__bar" aria-hidden="true"></span>
+      </button>
+      <span class="header-mobile__title">Scripture Suite</span>
+      <button
+        class="btn-theme-toggle btn-theme-toggle--icon-only"
+        id="btn-theme-toggle-mobile"
+        type="button"
+        aria-label="Toggle between light and dark theme"
+        aria-pressed="false">
+        <span class="btn-theme-toggle__icon" aria-hidden="true">◑</span>
+      </button>
+    </header>
+
+    <!-- Mobile slide-out menu (toggled by hamburger) -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true" role="dialog" aria-label="Navigation menu">
+      <nav aria-label="Mobile navigation">
+        <ul class="mobile-menu__links" role="list">
+          <li>
+            <a href="#view-daily"
+               class="mobile-menu__link mobile-menu__link--active"
+               data-view="daily"
+               aria-current="page"
+               role="button">
+              <span class="nav-icon" aria-hidden="true">☀</span>
+              Today
+            </a>
+          </li>
+          <li>
+            <a href="#view-catalog"
+               class="mobile-menu__link"
+               data-view="catalog"
+               role="button">
+              <span class="nav-icon" aria-hidden="true">📖</span>
+              Catalog
+            </a>
+          </li>
+          <li>
+            <a href="#view-bookmarks"
+               class="mobile-menu__link"
+               data-view="bookmarks"
+               role="button">
+              <span class="nav-icon" aria-hidden="true">🔖</span>
+              Bookmarks
+            </a>
+          </li>
+          <li>
+            <a href="#view-configurator"
+               class="mobile-menu__link"
+               data-view="configurator"
+               role="button">
+              <span class="nav-icon" aria-hidden="true">⚙</span>
+              Configurator
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Mobile menu overlay (closes menu on backdrop click) -->
+    <div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true"></div>
+
+    <!-- ------------------------------------------------------------------
+         Mobile: bottom navigation bar
+         Requirement 9.6: mobile-friendly bottom bar at ≤768px
+         ------------------------------------------------------------------ -->
+    <nav class="nav-bottom" aria-label="Bottom navigation">
+      <ul class="nav-bottom__links" role="list">
+        <li>
+          <a href="#view-daily"
+             class="nav-bottom__link nav-bottom__link--active"
+             data-view="daily"
+             aria-label="Today's verse"
+             aria-current="page"
+             role="button">
+            <span class="nav-bottom__icon" aria-hidden="true">☀</span>
+            <span class="nav-bottom__label">Today</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-catalog"
+             class="nav-bottom__link"
+             data-view="catalog"
+             aria-label="Verse catalog"
+             role="button">
+            <span class="nav-bottom__icon" aria-hidden="true">📖</span>
+            <span class="nav-bottom__label">Catalog</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-bookmarks"
+             class="nav-bottom__link"
+             data-view="bookmarks"
+             aria-label="Bookmarked verses"
+             role="button">
+            <span class="nav-bottom__icon" aria-hidden="true">🔖</span>
+            <span class="nav-bottom__label">Bookmarks</span>
+          </a>
+        </li>
+        <li>
+          <a href="#view-configurator"
+             class="nav-bottom__link"
+             data-view="configurator"
+             aria-label="Widget configurator"
+             role="button">
+            <span class="nav-bottom__icon" aria-hidden="true">⚙</span>
+            <span class="nav-bottom__label">Config</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ------------------------------------------------------------------
+         Main content area — holds all four views
+         ------------------------------------------------------------------ -->
+    <main class="main-content" id="main-content" role="main">
+
+      <!-- Update available banner (shown when service worker detects new version) -->
+      <div class="update-banner" id="update-banner" hidden role="status" aria-live="polite">
+        <p class="update-banner__message">A new version is available.</p>
+        <button class="update-banner__btn" id="btn-refresh" type="button">Refresh</button>
+      </div>
+
+      <!-- Toast/error notification -->
+      <div class="toast" id="toast" hidden role="alert" aria-live="assertive" aria-atomic="true">
+        <p class="toast__message" id="toast-message"></p>
+      </div>
+
+      <!-- ----------------------------------------------------------------
+           View: Daily (#view-daily)
+           Requirement 9.1: displays daily verse with all required fields
+           ---------------------------------------------------------------- -->
+      <section
+        class="view view--active"
+        id="view-daily"
+        aria-label="Today's verse"
+        aria-labelledby="daily-heading">
+
+        <header class="view-header">
+          <h1 class="view-heading" id="daily-heading">Today's Verse</h1>
+        </header>
+
+        <!-- Verse card — populated by dashboard.js on DOMContentLoaded -->
+        <article class="verse-card verse-card--loading" id="daily-verse-card" aria-live="polite" aria-label="Daily scripture verse">
+
+          <p class="verse-reference" id="daily-reference" aria-label="Scripture reference"></p>
+
+          <blockquote class="verse-text" id="daily-text">
+            <p id="daily-text-content"></p>
+          </blockquote>
+
+          <div class="daily-translation-bar">
+            <span class="verse-translation" id="daily-translation" aria-label="Bible translation"></span>
+            <select class="translation-select" id="daily-translation-select" aria-label="Choose Bible translation">
+              <option value="NIV" selected>NIV</option>
+              <option value="ESV">ESV</option>
+              <option value="MBB">MBB</option>
+            </select>
+          </div>
+
+          <p class="verse-reflection" id="daily-reflection" aria-label="Reflection"></p>
+
+          <p class="verse-prompt" id="daily-prompt" aria-label="Quiet-time prompt"></p>
+
+          <!-- Card action buttons -->
+          <div class="verse-card__actions">
+            <button
+              class="btn-action btn-copy"
+              id="btn-copy-daily"
+              type="button"
+              aria-label="Copy verse reference and text to clipboard">
+              <span class="btn-action__icon" aria-hidden="true">⎘</span>
+              <span class="btn-action__label">Copy</span>
+              <span class="btn-action__confirm" aria-live="polite">Copied!</span>
+            </button>
+
+            <button
+              class="btn-action btn-bookmark"
+              id="btn-bookmark-daily"
+              type="button"
+              aria-label="Bookmark this verse"
+              aria-pressed="false"
+              data-verse-id="">
+              <span class="btn-action__icon" aria-hidden="true">🔖</span>
+              <span class="btn-action__label">Bookmark</span>
+            </button>
+
+            <button
+              class="btn-action btn-random"
+              id="btn-random-daily"
+              type="button"
+              aria-label="Show a random verse">
+              <span class="btn-action__icon" aria-hidden="true">⟳</span>
+              <span class="btn-action__label">Random</span>
+            </button>
+          </div>
+        </article>
+
+      </section>
+
+      <!-- ----------------------------------------------------------------
+           View: Catalog (#view-catalog)
+           Requirement 9.2, 9.3: browse all verses grouped by category
+           ---------------------------------------------------------------- -->
+      <section
+        class="view"
+        id="view-catalog"
+        aria-label="Verse catalog"
+        aria-labelledby="catalog-heading"
+        hidden>
+
+        <header class="view-header">
+          <h1 class="view-heading" id="catalog-heading">Verse Catalog</h1>
+
+          <!-- Category filter -->
+          <div class="catalog-filter">
+            <label class="catalog-filter__label" for="catalog-category-filter">Filter by category:</label>
+            <select
+              class="catalog-filter__select"
+              id="catalog-category-filter"
+              aria-label="Filter verses by category">
+              <option value="">All Categories</option>
+              <!-- Category options inserted dynamically by dashboard.js -->
+            </select>
+          </div>
+        </header>
+
+        <!-- Grouped verse listing — populated by dashboard.js -->
+        <div class="catalog-groups" id="catalog-groups" aria-live="polite" aria-label="Verse groups by category">
+          <!-- .catalog-group elements inserted here by dashboard.js -->
+        </div>
+
+      </section>
+
+      <!-- ----------------------------------------------------------------
+           View: Bookmarks (#view-bookmarks)
+           Requirement 12: shows bookmarked verses
+           ---------------------------------------------------------------- -->
+      <section
+        class="view"
+        id="view-bookmarks"
+        aria-label="Bookmarked verses"
+        aria-labelledby="bookmarks-heading"
+        hidden>
+
+        <header class="view-header">
+          <h1 class="view-heading" id="bookmarks-heading">Bookmarks</h1>
+        </header>
+
+        <!-- Bookmark list — populated by dashboard.js -->
+        <div class="bookmarks-list" id="bookmarks-list" aria-live="polite" aria-label="Your bookmarked verses">
+          <!-- Bookmark verse cards inserted here by dashboard.js -->
+        </div>
+
+        <!-- Empty state shown when no bookmarks exist -->
+        <p class="bookmarks-empty" id="bookmarks-empty" hidden>
+          No bookmarks yet. Tap the 🔖 button on any verse to save it here.
+        </p>
+
+      </section>
+
+      <!-- ----------------------------------------------------------------
+           View: Configurator (#view-configurator)
+           Requirement 9.4: embedded configurator as an iframe
+           ---------------------------------------------------------------- -->
+      <section
+        class="view"
+        id="view-configurator"
+        aria-label="Widget configurator"
+        aria-labelledby="configurator-heading"
+        hidden>
+
+        <header class="view-header">
+          <h1 class="view-heading" id="configurator-heading">Widget Configurator</h1>
+          <p class="view-subheading">Customize your embed code, preview the widget, then copy the snippet to your site.</p>
+        </header>
+
+        <div class="configurator-embed-wrapper">
+          <iframe
+            class="configurator-embed"
+            id="configurator-iframe"
+            src="configurator.html"
+            title="Scripture Widget Configurator"
+            aria-label="Embedded widget configurator"
+            loading="lazy"
+            frameborder="0"
+            scrolling="auto">
+          </iframe>
+        </div>
+
+      </section>
+
+    </main><!-- /.main-content -->
+
+  </div><!-- /.app-shell -->
+
+  <!--
+    Service Worker registration.
+    Implemented in task 11.1; the script block is wired here so dashboard.html
+    is the correct registration point (start_url in manifest.webmanifest).
+  -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js').catch(function (err) {
+          // Registration failure is non-fatal; app still works without SW
+          console.warn('Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
+
+  <!-- ES module — all dashboard interaction logic (implemented in task 9.2+) -->
+  <script type="module" src="dashboard.js"></script>
+
+</body>
+</html>

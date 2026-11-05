@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scripture Widget</title>
+
+  <!--
+    Synchronous theme application — runs before any CSS paint to prevent FOUC.
+    Reads the `theme` query parameter and sets data-theme on <html> immediately.
+    Requirement 7.2, 7.3, 7.4
+  -->
+  <script>
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var theme = params.get('theme');
+      // Default to 'light' if not provided or not a recognised value
+      if (theme !== 'dark') {
+        theme = 'light';
+      }
+      document.documentElement.dataset.theme = theme;
+    }());
+  </script>
+
+  <!-- Theme tokens (single source of truth for all colors / spacing) -->
+  <link rel="stylesheet" href="styles/base.css" />
+  <!-- Widget card layout styles -->
+  <link rel="stylesheet" href="styles/widget.css" />
+</head>
+<body>
+  <!--
+    .verse-card is initially empty; embed.js will populate it on DOMContentLoaded.
+    The loading class provides an optional skeleton state while the engine runs.
+  -->
+  <div class="verse-card verse-card--loading" id="verse-card" role="main" aria-live="polite" aria-label="Scripture verse">
+  </div>
+
+  <!-- ES module — handles all verse fetching and rendering logic -->
+  <script type="module" src="embed.js"></script>
+</body>
+</html>

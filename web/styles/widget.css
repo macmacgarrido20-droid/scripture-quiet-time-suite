@@ -1,0 +1,208 @@
+/* =============================================================================
+   widget.css — Embeddable Widget Card Styles
+   Scripture & Quiet-Time Suite
+   =============================================================================
+   Designed for iframe embedding: compact, self-contained, no overflow.
+   Depends on CSS custom property tokens defined in base.css.
+
+   Widget fields rendered:
+     .verse-reference    — book, chapter, verse (e.g. "John 3:16")
+     .verse-text         — verse body text
+     .verse-translation  — translation label (e.g. "NIV")
+     .verse-reflection   — short commentary
+     .verse-prompt       — quiet-time meditative prompt
+
+   Layout intent: single-column card, max-width 100%, scrolls internally
+   if content exceeds iframe height.
+   ============================================================================= */
+
+/* ---------------------------------------------------------------------------
+   1. Widget root / iframe body reset
+   Ensures the widget fills its iframe without adding unexpected scrollbars
+   or margin on the host page.
+   --------------------------------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  /* Let content define height; outer iframe controls clipping */
+}
+
+/* ---------------------------------------------------------------------------
+   2. .verse-card — main container
+   --------------------------------------------------------------------------- */
+
+.verse-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+
+  max-width: 100%;
+  width: 100%;
+
+  padding: var(--space-lg) var(--space-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+
+  background-color: var(--color-surface);
+  color: var(--color-text-primary);
+
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+
+  /* Prevent card from leaking outside narrow iframes */
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Subtle shadow in both themes using semi-transparent black */
+[data-theme="light"] .verse-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] .verse-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.40);
+}
+
+/* ---------------------------------------------------------------------------
+   3. .verse-reference — scripture citation
+   --------------------------------------------------------------------------- */
+
+.verse-reference {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-accent);
+  line-height: 1.3;
+}
+
+/* ---------------------------------------------------------------------------
+   4. .verse-text — the verse body
+   --------------------------------------------------------------------------- */
+
+.verse-text {
+  font-size: var(--font-size-md);
+  font-style: italic;
+  color: var(--color-text-primary);
+  line-height: 1.7;
+}
+
+/* ---------------------------------------------------------------------------
+   5. .verse-translation — version badge (e.g. NIV, ESV, KJV)
+   --------------------------------------------------------------------------- */
+
+.verse-translation {
+  display: inline-block;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+
+  padding: var(--space-xs) var(--space-sm);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+
+  /* Align to start — does not stretch full width */
+  align-self: flex-start;
+}
+
+/* ---------------------------------------------------------------------------
+   6. .verse-reflection — contextual commentary
+   --------------------------------------------------------------------------- */
+
+.verse-reflection {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-border);
+}
+
+.verse-reflection::before {
+  content: "Reflection: ";
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* ---------------------------------------------------------------------------
+   7. .verse-prompt — quiet-time meditative question
+   --------------------------------------------------------------------------- */
+
+.verse-prompt {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+
+  padding: var(--space-sm) var(--space-md);
+  border-left: 3px solid var(--color-accent);
+  background-color: var(--color-background);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.verse-prompt::before {
+  content: "Today's prompt: ";
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* ---------------------------------------------------------------------------
+   8. Error / fallback state
+   Shown when the scripture engine returns an error.
+   --------------------------------------------------------------------------- */
+
+.verse-card--error {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.verse-card--error p {
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------------------
+   9. Loading / skeleton state (optional progressive enhancement)
+   --------------------------------------------------------------------------- */
+
+.verse-card--loading {
+  pointer-events: none;
+}
+
+.verse-card--loading .verse-reference,
+.verse-card--loading .verse-text,
+.verse-card--loading .verse-translation,
+.verse-card--loading .verse-reflection,
+.verse-card--loading .verse-prompt {
+  background: var(--color-border);
+  color: transparent;
+  border-radius: var(--radius-sm);
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+/* ---------------------------------------------------------------------------
+   10. Responsive adjustments for very narrow iframes (< 300px)
+   --------------------------------------------------------------------------- */
+
+@media (max-width: 300px) {
+  .verse-card {
+    padding: var(--space-md) var(--space-sm);
+    gap: var(--space-sm);
+  }
+
+  .verse-reference {
+    font-size: var(--font-size-base);
+  }
+
+  .verse-text {
+    font-size: var(--font-size-base);
+  }
+}

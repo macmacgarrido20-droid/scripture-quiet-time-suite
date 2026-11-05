@@ -1,0 +1,27 @@
+{
+  "name": "Scripture & Quiet-Time Suite",
+  "short_name": "ScriptureQT",
+  "description": "Daily Bible verses, reflections, and quiet-time prompts — available offline.",
+  "start_url": "/dashboard.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf9f6",
+  "theme_color": "#4a7c59",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["lifestyle", "education"]
+}

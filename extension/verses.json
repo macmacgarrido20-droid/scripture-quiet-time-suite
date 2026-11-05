@@ -1,0 +1,1720 @@
+{
+  "verses": [
+    {
+      "id": "v001",
+      "dayOfYear": 1,
+      "reference": "John 3:16",
+      "translations": {
+        "NIV": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.",
+        "ESV": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
+        "MBB": "Sapagkat gayon na lamang ang pagmamahal ng Diyos sa mundo, kaya ibinigay niya ang kanyang kaisa-isang Anak, upang ang sinumang sumampalataya sa kanya ay hindi mapahamak, kundi magkaroon ng buhay na walang hanggan."
+      },
+      "reflection": "This verse captures the heart of the Gospel — sacrificial love offered freely to all.",
+      "quietTimePrompt": "How does knowing God's love is unconditional change the way you approach today?",
+      "category": "hope"
+    },
+    {
+      "id": "v002",
+      "dayOfYear": 15,
+      "reference": "Philippians 4:7",
+      "translations": {
+        "NIV": "And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+        "ESV": "And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.",
+        "MBB": "At ang kapayapaan ng Diyos na higit sa lahat ng pag-unawa ay mag-iingat sa inyong mga puso at isipan sa pamamagitan ni Cristo Jesus."
+      },
+      "reflection": "God's peace isn't dependent on circumstances — it surpasses human logic and protects us from within.",
+      "quietTimePrompt": "What worries can you surrender to God right now, trusting His peace to stand guard in your heart?",
+      "category": "peace"
+    },
+    {
+      "id": "v003",
+      "dayOfYear": 30,
+      "reference": "Hebrews 11:1",
+      "translations": {
+        "NIV": "Now faith is confidence in what we hope for and assurance about what we do not see.",
+        "ESV": "Now faith is the assurance of things hoped for, the conviction of things not seen.",
+        "MBB": "Ang pananampalataya ay pagtitiyak sa mga bagay na inaasahan, katibayan ng mga bagay na hindi nakikita."
+      },
+      "reflection": "Faith is not wishful thinking — it is a firm, active trust grounded in God's proven faithfulness.",
+      "quietTimePrompt": "In what area of your life are you being asked to trust God with what you cannot yet see?",
+      "category": "faith"
+    },
+    {
+      "id": "v004",
+      "dayOfYear": 45,
+      "reference": "Psalm 100:4",
+      "translations": {
+        "NIV": "Enter his gates with thanksgiving and his courts with praise; give thanks to him and praise his name.",
+        "ESV": "Enter his gates with thanksgiving, and his courts with praise! Give thanks to him; bless his name!",
+        "MBB": "Pumasok kayo sa kanyang mga pintuan na may pagpapasalamat, at sa kanyang mga looban na may papuri. Magpasalamat kayo sa kanya at purihin ang kanyang pangalan."
+      },
+      "reflection": "Gratitude is the posture of a heart that recognises everything good comes from God.",
+      "quietTimePrompt": "List three specific blessings from the past week and bring them before God with a thankful heart.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v005",
+      "dayOfYear": 60,
+      "reference": "Romans 15:13",
+      "translations": {
+        "NIV": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.",
+        "ESV": "May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope.",
+        "MBB": "Nawa ang Diyos ng pag-asa ay punuin kayo ng buong kagalakan at kapayapaan sa inyong paniniwala, upang kayo ay mag-umapaw sa pag-asa sa pamamagitan ng kapangyarihan ng Espiritu Santo."
+      },
+      "reflection": "Hope is not self-generated — it is poured into us by God as we place our trust in Him.",
+      "quietTimePrompt": "Where in your life do you most need God to pour in fresh hope today? Bring that place to Him now.",
+      "category": "hope"
+    },
+    {
+      "id": "v006",
+      "dayOfYear": 75,
+      "reference": "Isaiah 26:3",
+      "translations": {
+        "NIV": "You will keep in perfect peace those whose minds are steadfast, because they trust in you.",
+        "ESV": "You keep him in perfect peace whose mind is stayed on you, because he trusts in you.",
+        "MBB": "Ang taong nanalig sa iyo, na ang isip ay nakatutok sa iyo, ay iyong bibigyan ng ganap na kapayapaan."
+      },
+      "reflection": "A mind fixed on God is the soil from which lasting peace grows — trust is the root.",
+      "quietTimePrompt": "What thought pattern or worry keeps your mind from resting in God? Ask Him to re-anchor your focus.",
+      "category": "peace"
+    },
+    {
+      "id": "v007",
+      "dayOfYear": 90,
+      "reference": "Matthew 17:20",
+      "translations": {
+        "NIV": "Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, 'Move from here to there,' and it will move. Nothing will be impossible for you.",
+        "ESV": "He said to them, 'Because of your little faith. For truly, I say to you, if you have faith like a grain of mustard seed, you will say to this mountain, \"Move from here to there,\" and it will move, and nothing will be impossible for you.'",
+        "MBB": "Sinabi niya sa kanila, 'Dahil sa inyong kakulangan ng pananalig. Sinasabi ko sa inyo, kung mayroon kayong pananampalatayang kasing-liit ng butil ng mustasa, maaari ninyong sabihin sa bundok na ito, \"Lumipat ka mula rito patungo roon,\" at lilipat ito. Wala ni isang bagay ang magiging imposible para sa inyo.'"
+      },
+      "reflection": "Faith's power is not in its size but in its object — even tiny faith directed at God is powerful.",
+      "quietTimePrompt": "What 'mountain' in your life feels immovable? Offer it to God in faith, however small, right now.",
+      "category": "faith"
+    },
+    {
+      "id": "v008",
+      "dayOfYear": 105,
+      "reference": "1 Thessalonians 5:18",
+      "translations": {
+        "NIV": "Give thanks in all circumstances; for this is God's will for you in Christ Jesus.",
+        "ESV": "Give thanks in all circumstances; for this is the will of God in Christ Jesus for you.",
+        "MBB": "Magpasalamat kayo sa lahat ng pagkakataon, sapagkat ito ang kalooban ng Diyos para sa inyo kay Cristo Jesus."
+      },
+      "reflection": "Gratitude in difficult circumstances is an act of trust — it declares God's goodness above our feelings.",
+      "quietTimePrompt": "Is there a hard circumstance right now in which you can find something to thank God for? Name it aloud.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v009",
+      "dayOfYear": 120,
+      "reference": "Jeremiah 29:11",
+      "translations": {
+        "NIV": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.",
+        "ESV": "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.",
+        "MBB": "Sapagkat alam ko ang mga plano ko para sa inyo, sabi ng Panginoon, mga planong magbibigay sa inyo ng kapakanan at hindi ng kasamaan, upang bigyan kayo ng kinabukasan at pag-asa."
+      },
+      "reflection": "Even in exile, God declares His intentions are for good — His plans are woven with hope from the start.",
+      "quietTimePrompt": "Do you trust that God's plan for your future is good? What would change if you lived as though you did?",
+      "category": "hope"
+    },
+    {
+      "id": "v010",
+      "dayOfYear": 135,
+      "reference": "John 14:27",
+      "translations": {
+        "NIV": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.",
+        "ESV": "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.",
+        "MBB": "Kapayapaan ang iniiwan ko sa inyo; ang aking kapayapaan ang ibinibigay ko sa inyo. Hindi ko ibinibigay sa inyo ang kapayapaan na ibinibigay ng mundo. Huwag pabalisa ang inyong mga puso at huwag matakot."
+      },
+      "reflection": "Jesus offers a peace the world cannot manufacture — it is His own, given freely as a parting gift.",
+      "quietTimePrompt": "What fear or trouble is currently gripping your heart? Receive Jesus's gift of peace over it right now.",
+      "category": "peace"
+    },
+    {
+      "id": "v011",
+      "dayOfYear": 150,
+      "reference": "Proverbs 3:5-6",
+      "translations": {
+        "NIV": "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.",
+        "ESV": "Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.",
+        "MBB": "Magtiwala ka sa Panginoon nang buong puso mo at huwag mong pagkatiwalaan ang iyong sariling kaalaman. Kilalanin mo siya sa lahat ng iyong mga lakad at siya ang magtatuwid ng iyong mga landas."
+      },
+      "reflection": "Full trust — not partial — is the invitation here. God's wisdom exceeds our own analysis every time.",
+      "quietTimePrompt": "Where are you currently leaning on your own understanding rather than submitting the decision to God?",
+      "category": "faith"
+    },
+    {
+      "id": "v012",
+      "dayOfYear": 165,
+      "reference": "Psalm 107:1",
+      "translations": {
+        "NIV": "Give thanks to the Lord, for he is good; his love endures forever.",
+        "ESV": "Oh give thanks to the LORD, for he is good, for his steadfast love endures forever!",
+        "MBB": "Magpasalamat kayo sa Panginoon, sapagkat siya ay mabuti; ang kanyang tapat na pagmamahal ay magpakailanman."
+      },
+      "reflection": "God's goodness is not circumstantial — it is His nature, and His love has no expiry date.",
+      "quietTimePrompt": "Reflect on one way God has shown enduring love toward you this year. Respond with a prayer of thanks.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v013",
+      "dayOfYear": 180,
+      "reference": "Lamentations 3:22-23",
+      "translations": {
+        "NIV": "Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.",
+        "ESV": "The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness.",
+        "MBB": "Ang tapat na pagmamahal ng Panginoon ay hindi natatapos, ang kanyang mga awa ay hindi nauubos. Bago-bago ang mga ito tuwing umaga; dakila ang iyong katapatan."
+      },
+      "reflection": "Every new morning is a fresh demonstration of God's faithfulness — His mercies reset with the sunrise.",
+      "quietTimePrompt": "What mercy do you need to receive fresh from God this morning? Open your hands to receive it.",
+      "category": "hope"
+    },
+    {
+      "id": "v014",
+      "dayOfYear": 195,
+      "reference": "Psalm 46:10",
+      "translations": {
+        "NIV": "He says, 'Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth.'",
+        "ESV": "\"Be still, and know that I am God. I will be exalted among the nations, I will be exalted in the earth!\"",
+        "MBB": "'Tumigil kayo at kilalanin na ako ang Diyos; ako ay dadakilain sa mga bansa, ako ay dadakilain sa buong mundo.'"
+      },
+      "reflection": "Stillness is not inactivity — it is a posture of trusting that God is in control, so we don't have to be.",
+      "quietTimePrompt": "Spend two minutes in silence right now. What does God want to say to you in the stillness?",
+      "category": "peace"
+    },
+    {
+      "id": "v015",
+      "dayOfYear": 210,
+      "reference": "Galatians 2:20",
+      "translations": {
+        "NIV": "I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me.",
+        "ESV": "I have been crucified with Christ. It is no longer I who live, but Christ who lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.",
+        "MBB": "Ako ay napako na sa krus kasama si Cristo; hindi na ako ang nabubuhay, kundi si Cristo ang nabubuhay sa akin. Ang buhay na itinataglay ko ngayon dito sa laman ay isinasabuhay ko sa pananampalataya sa Anak ng Diyos na nagmahal sa akin at nagbigay ng kanyang sarili para sa akin."
+      },
+      "reflection": "The Christian life is not self-improvement — it is Christ living through us as we surrender daily.",
+      "quietTimePrompt": "In what specific area of today do you need to stop striving and instead let Christ live through you?",
+      "category": "faith"
+    },
+    {
+      "id": "v016",
+      "dayOfYear": 225,
+      "reference": "Psalm 95:2",
+      "translations": {
+        "NIV": "Let us come before him with thanksgiving and extol him with music and song.",
+        "ESV": "Let us come into his presence with thanksgiving; let us make a joyful noise to him with songs of praise!",
+        "MBB": "Lumapit tayo sa kanyang harapan na may pagpapasalamat; umawit tayo sa kanya ng mga awit ng papuri."
+      },
+      "reflection": "Worship is most authentic when led by gratitude — thanksgiving is the gateway into God's presence.",
+      "quietTimePrompt": "What song or expression of thanks rises in your heart as you think about God's presence with you today?",
+      "category": "gratitude"
+    },
+    {
+      "id": "v017",
+      "dayOfYear": 240,
+      "reference": "Romans 8:28",
+      "translations": {
+        "NIV": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+        "ESV": "And we know that for those who love God all things work together for good, for those who are called according to his purpose.",
+        "MBB": "Nalalaman natin na ang lahat ng bagay ay nagtatulungan para sa ikabubuti ng mga nagmamahal sa Diyos, ng mga tinawag ayon sa kanyang layunin."
+      },
+      "reflection": "'All things' includes the painful ones — God is a master weaver who uses every thread for good.",
+      "quietTimePrompt": "Is there a painful situation you struggle to believe God is working in for good? Bring that to Him honestly.",
+      "category": "hope"
+    },
+    {
+      "id": "v018",
+      "dayOfYear": 255,
+      "reference": "Colossians 3:15",
+      "translations": {
+        "NIV": "Let the peace of Christ rule in your hearts, since as members of one body you were called to peace. And be thankful.",
+        "ESV": "And let the peace of Christ rule in your hearts, to which indeed you were called in one body. And be thankful.",
+        "MBB": "At hayaan ninyong ang kapayapaan ni Cristo ang mamuno sa inyong mga puso, dahil sa kapayapaan na ito kayo tinawag upang maging isang katawan. At magpasalamat kayo."
+      },
+      "reflection": "Peace is meant to be an active ruler in our hearts — governing our decisions and relationships.",
+      "quietTimePrompt": "Is there a relationship or situation where you need to let Christ's peace rule rather than your own reaction?",
+      "category": "peace"
+    },
+    {
+      "id": "v019",
+      "dayOfYear": 270,
+      "reference": "James 1:3",
+      "translations": {
+        "NIV": "Because you know that the testing of your faith produces perseverance.",
+        "ESV": "For you know that the testing of your faith produces steadfastness.",
+        "MBB": "Sapagkat alam ninyo na ang pagsubok sa inyong pananampalataya ay nagbubunga ng pagtitiis."
+      },
+      "reflection": "Trials are not punishments — they are the training ground where faith is strengthened and deepened.",
+      "quietTimePrompt": "What current difficulty might God be using to build perseverance and deepen your trust in Him?",
+      "category": "faith"
+    },
+    {
+      "id": "v020",
+      "dayOfYear": 285,
+      "reference": "2 Corinthians 9:15",
+      "translations": {
+        "NIV": "Thanks be to God for his indescribable gift!",
+        "ESV": "Thanks be to God for his inexpressible gift!",
+        "MBB": "Salamat sa Diyos dahil sa kanyang walang kapantay na kaloob!"
+      },
+      "reflection": "The greatest gift ever given — Jesus — is beyond adequate description. Gratitude is the only fitting response.",
+      "quietTimePrompt": "How would your day look different if you lived in continuous awareness of God's indescribable gift to you?",
+      "category": "gratitude"
+    },
+    {
+      "id": "v021",
+      "dayOfYear": 300,
+      "reference": "Isaiah 40:31",
+      "translations": {
+        "NIV": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.",
+        "ESV": "But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint.",
+        "MBB": "Ngunit ang mga naghihintay sa Panginoon ay magbabago ng lakas; sila ay mag-aalaga ng mga pakpak tulad ng mga agila; sila ay tatakbo at hindi mapapagod; sila ay lalakad at hindi manlalata."
+      },
+      "reflection": "Hope is an active, expectant waiting on God — and it leads to supernatural renewal of our strength.",
+      "quietTimePrompt": "Where do you feel weary right now? Take a moment to actively place your hope in God's renewing power.",
+      "category": "hope"
+    },
+    {
+      "id": "v022",
+      "dayOfYear": 315,
+      "reference": "Numbers 6:24-26",
+      "translations": {
+        "NIV": "The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you; the Lord turn his face toward you and give you peace.",
+        "ESV": "The LORD bless you and keep you; the LORD make his face shine on you and be gracious to you; the LORD lift up his countenance upon you and give you peace.",
+        "MBB": "Pagpalain ka nawa ng Panginoon at ingatan ka; hayagan ka nawa ng Panginoon ng kanyang mukha at maawa sa iyo; iangat nawa ng Panginoon ang kanyang mukha sa iyo at bigyan ka ng kapayapaan."
+      },
+      "reflection": "This ancient benediction is God's own desire for His people — peace granted by His very presence turned toward us.",
+      "quietTimePrompt": "Receive this blessing as God's personal word to you right now. How does it change your outlook on today?",
+      "category": "peace"
+    },
+    {
+      "id": "v023",
+      "dayOfYear": 330,
+      "reference": "Mark 9:24",
+      "translations": {
+        "NIV": "Immediately the boy's father exclaimed: 'I do believe; help me overcome my unbelief!'",
+        "ESV": "Immediately the father of the child cried out and said, 'I believe; help my unbelief!'",
+        "MBB": "Agad na sumigaw ang ama ng bata at nagsabi, 'Naniniwala ako; tulungan mo ang aking kawalan ng pananalig!'"
+      },
+      "reflection": "Honest faith acknowledges its doubts — and Jesus honours the cry for help even within the struggle.",
+      "quietTimePrompt": "Where do you feel the tension between belief and doubt today? Bring that honest cry to Jesus.",
+      "category": "faith"
+    },
+    {
+      "id": "v024",
+      "dayOfYear": 345,
+      "reference": "Psalm 9:1",
+      "translations": {
+        "NIV": "I will give thanks to you, Lord, with all my heart; I will tell of all your wonderful deeds.",
+        "ESV": "I will give thanks to the LORD with my whole heart; I will recount all of your wonderful deeds.",
+        "MBB": "Magpapasalamat ako sa Panginoon nang buong puso ko; isasalaysay ko ang lahat ng iyong mga kamangha-manghang gawa."
+      },
+      "reflection": "Wholehearted gratitude spills over into testimony — what God has done is too good to keep to ourselves.",
+      "quietTimePrompt": "What wonderful deed of God could you share with someone today as an act of grateful witness?",
+      "category": "gratitude"
+    },
+    {
+      "id": "v025",
+      "dayOfYear": 360,
+      "reference": "Revelation 21:4",
+      "translations": {
+        "NIV": "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away.",
+        "ESV": "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.",
+        "MBB": "Papahirin niya ang bawat luha mula sa kanilang mga mata, at hindi na magkakaroon ng kamatayan, ni pagdadalamhati, ni pag-iyak, ni kirot pa man, sapagkat lumipas na ang mga dating bagay."
+      },
+      "reflection": "The Christian hope is not merely for now — it reaches forward to a complete restoration where suffering ends.",
+      "quietTimePrompt": "What present grief or pain do you need to hold loosely, remembering God's final promise of renewal?",
+      "category": "hope"
+    },
+    {
+      "id": "v026",
+      "dayOfYear": 20,
+      "reference": "Psalm 23:1-2",
+      "translations": {
+        "NIV": "The Lord is my shepherd, I lack nothing. He makes me lie down in green pastures, he leads me beside quiet waters.",
+        "ESV": "The LORD is my shepherd; I shall not want. He makes me lie down in green pastures. He leads me beside still waters.",
+        "MBB": "Ang Panginoon ang aking Pastol; wala akong kakulangan. Pinahahiga niya ako sa mga sariwang pastulan; pinapatnubayan niya ako sa mga payapang tubig."
+      },
+      "reflection": "Under the Shepherd's care, every genuine need is met — rest and refreshment flow from His leading.",
+      "quietTimePrompt": "In what area of life do you feel anxious or lacking? Let the Good Shepherd lead you to still waters today.",
+      "category": "peace"
+    },
+    {
+      "id": "v027",
+      "dayOfYear": 50,
+      "reference": "Romans 10:17",
+      "translations": {
+        "NIV": "Consequently, faith comes from hearing the message, and the message is heard through the word about Christ.",
+        "ESV": "So faith comes from hearing, and hearing through the word of Christ.",
+        "MBB": "Kaya nga ang pananampalataya ay nagmumula sa pakikinig, at ang pakikinig ay sa pamamagitan ng salita ni Cristo."
+      },
+      "reflection": "Faith is not conjured from within — it comes as we hear and receive the word of Christ again and again.",
+      "quietTimePrompt": "How regularly are you exposing yourself to God's word? What step could you take to increase that habit?",
+      "category": "faith"
+    },
+    {
+      "id": "v028",
+      "dayOfYear": 100,
+      "reference": "Ephesians 2:8-9",
+      "translations": {
+        "NIV": "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast.",
+        "ESV": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
+        "MBB": "Sapagkat kayo ay naligtas sa pamamagitan ng biyaya, sa pamamagitan ng pananampalataya. At ito ay hindi sa inyong sarili; ito ay kaloob ng Diyos, hindi dahil sa mga gawa, upang walang makapagmayabang."
+      },
+      "reflection": "Salvation is entirely a gift — grace received through faith, with no room for pride in our own effort.",
+      "quietTimePrompt": "How does remembering salvation is a gift, not an achievement, change your relationship with God today?",
+      "category": "gratitude"
+    },
+    {
+      "id": "v029",
+      "dayOfYear": 200,
+      "reference": "Psalm 34:18",
+      "translations": {
+        "NIV": "The Lord is close to the brokenhearted and saves those who are crushed in spirit.",
+        "ESV": "The LORD is near to the brokenhearted and saves the crushed in spirit.",
+        "MBB": "Ang Panginoon ay malapit sa mga may pusong nasira at inililigtas ang mga may diwa na nagapi."
+      },
+      "reflection": "Brokenness is not a barrier to God — it is often exactly where He draws nearest.",
+      "quietTimePrompt": "Is your heart broken or your spirit crushed in any way? Know that God is specifically close to you right now.",
+      "category": "hope"
+    },
+    {
+      "id": "v030",
+      "dayOfYear": 250,
+      "reference": "2 Timothy 1:7",
+      "translations": {
+        "NIV": "For the Spirit God gave us does not make us timid, but gives us power, love and self-discipline.",
+        "ESV": "For God gave us a spirit not of fear but of power and love and self-control.",
+        "MBB": "Sapagkat hindi tayo binigyan ng Diyos ng espiritu ng takot, kundi ng kapangyarihan at pagmamahal at disiplina sa sarili."
+      },
+      "reflection": "Fear is not from God — the Spirit He gives is characterised by strength, love, and a sound mind.",
+      "quietTimePrompt": "What fear is making you timid today? Declare this verse over that fear and ask the Spirit to empower you.",
+      "category": "faith"
+    },
+    {
+      "id": "v031",
+      "dayOfYear": 35,
+      "reference": "Matthew 5:9",
+      "translations": {
+        "NIV": "Blessed are the peacemakers, for they will be called children of God.",
+        "ESV": "Blessed are the peacemakers, for they shall be called sons of God.",
+        "MBB": "Mapalad ang mga nagtataguyod ng kapayapaan, sapagkat sila ay tatawaging mga anak ng Diyos."
+      },
+      "reflection": "Making peace is active work — it reflects the character of God our Father and marks us as His own.",
+      "quietTimePrompt": "Is there a broken relationship or tension where God is calling you to be a peacemaker today?",
+      "category": "peace"
+    },
+    {
+      "id": "v032",
+      "dayOfYear": 130,
+      "reference": "Psalm 136:1",
+      "translations": {
+        "NIV": "Give thanks to the Lord, for he is good. His love endures forever.",
+        "ESV": "Give thanks to the LORD, for he is good, for his steadfast love endures forever.",
+        "MBB": "Magpasalamat sa Panginoon, sapagkat siya ay mabuti; ang kanyang tapat na pagmamahal ay magpakailanman."
+      },
+      "reflection": "Repeated throughout Scripture, this call to gratitude anchors us in the unchanging goodness of God.",
+      "quietTimePrompt": "In what way has God's enduring love shown up in your life this week? Tell Him about it now.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v033",
+      "dayOfYear": 3,
+      "reference": "Psalm 46:1",
+      "translations": {
+        "NIV": "God is our refuge and strength, an ever-present help in trouble.",
+        "ESV": "God is our refuge and strength, a very present help in trouble.",
+        "MBB": "Ang Diyos ay ating kanlungan at lakas, isang tulong na handang-handa sa panahon ng kaguluhan."
+      },
+      "reflection": "This verse declares God as both our shelter and our power source — He is not distant but present in every trial.",
+      "quietTimePrompt": "What trouble are you facing today where you need to remember God is your refuge and strength?",
+      "category": "hope"
+    },
+    {
+      "id": "v034",
+      "dayOfYear": 6,
+      "reference": "Romans 8:38-39",
+      "translations": {
+        "NIV": "For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.",
+        "ESV": "For I am sure that neither death nor life, nor angels nor rulers, nor things present nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be able to separate us from the love of God in Christ Jesus our Lord.",
+        "MBB": "Sapagkat natitiyak ko na ang kamatayan o buhay, ang mga anghel o mga pamunuan, ang mga bagay na kasalukuyan o mga darating, ang mga kapangyarihan, ang taas o lalim, o anumang nilalang ay hindi makapaghihiwalay sa atin mula sa pagmamahal ng Diyos na nasa kay Cristo Jesus na ating Panginoon."
+      },
+      "reflection": "Paul's exhaustive list covers every possible force in existence — God's love in Christ is unbreakable and absolute.",
+      "quietTimePrompt": "What fear has been making you feel separated from God's love? Name it and let this verse answer it.",
+      "category": "hope"
+    },
+    {
+      "id": "v035",
+      "dayOfYear": 9,
+      "reference": "Psalm 23:4",
+      "translations": {
+        "NIV": "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+        "ESV": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
+        "MBB": "Kahit maglakad ako sa libis ng lilim ng kamatayan, hindi ako matatakot sa anumang kasamaan, sapagkat ikaw ay kasama ko; ang iyong tungkod at iyong pamalo ay nagpapaaliwan sa akin."
+      },
+      "reflection": "David does not deny the darkness of the valley — he reframes it as a passage walked with God, not alone.",
+      "quietTimePrompt": "What dark valley are you walking through right now? How does knowing God is walking with you change it?",
+      "category": "hope"
+    },
+    {
+      "id": "v036",
+      "dayOfYear": 12,
+      "reference": "Isaiah 43:2",
+      "translations": {
+        "NIV": "When you pass through the waters, I will be with you; and when you pass through the rivers, they will not sweep over you. When you walk through the fire, you will not be burned; the flames will not set you ablaze.",
+        "ESV": "When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you.",
+        "MBB": "Kapag dumaan ka sa tubig, sasamahan kita; at sa mga ilog, hindi ka malalunod. Kapag lumakad ka sa apoy, hindi ka masusunog; ang liyab ay hindi kakain sa iyo."
+      },
+      "reflection": "God does not promise to remove the waters or the fire — He promises His presence that makes survival certain.",
+      "quietTimePrompt": "What overwhelming situation feels like deep waters or a raging fire? Invite God into it now.",
+      "category": "hope"
+    },
+    {
+      "id": "v037",
+      "dayOfYear": 18,
+      "reference": "Ephesians 3:20",
+      "translations": {
+        "NIV": "Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us.",
+        "ESV": "Now to him who is able to do far more abundantly than all that we ask or think, according to the power at work within us.",
+        "MBB": "Sa kanya na may kakayahang gumawa ng higit pa sa labis kaysa lahat ng ating hinihingi o inaasahan, ayon sa kapangyarihang gumagawa sa atin."
+      },
+      "reflection": "God's capacity exceeds even our best imagination — His power working in us has no ceiling.",
+      "quietTimePrompt": "What are you asking God for that might be too small? Expand your prayer to match His immeasurable power.",
+      "category": "hope"
+    },
+    {
+      "id": "v038",
+      "dayOfYear": 22,
+      "reference": "Hebrews 12:1-2",
+      "translations": {
+        "NIV": "Therefore, since we are surrounded by such a great cloud of witnesses, let us throw off everything that hinders and the sin that so easily entangles. And let us run with perseverance the race marked out for us, fixing our eyes on Jesus, the pioneer and perfecter of faith.",
+        "ESV": "Therefore, since we are surrounded by so great a cloud of witnesses, let us also lay aside every weight, and sin which clings so closely, and let us run with endurance the race that is set before us, looking to Jesus, the founder and perfecter of our faith.",
+        "MBB": "Kaya nga, yamang napapalibutan tayo ng napakaraming saksi, itabi natin ang lahat ng pumipigil sa atin, at ang kasalanang madaling pumailalim sa atin, at patakbuhin nating may pagtitiis ang laro na nakalatag sa harap natin, na nakatingin kay Jesus, ang nagtatag at nagpapasakdal ng ating pananampalataya."
+      },
+      "reflection": "The Christian life is a marathon, not a sprint — endurance comes from shedding weight and keeping eyes on Jesus.",
+      "quietTimePrompt": "What is weighing you down in your spiritual race right now? Ask God to help you lay it aside.",
+      "category": "hope"
+    },
+    {
+      "id": "v039",
+      "dayOfYear": 25,
+      "reference": "Psalm 16:11",
+      "translations": {
+        "NIV": "You make known to me the path of life; you will fill me with joy in your presence, with eternal pleasures at your right hand.",
+        "ESV": "You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore.",
+        "MBB": "Ipinakikilala mo sa akin ang landas ng buhay; sa iyong presensya ay puno ng kagalakan; sa iyong kanan ay mga kasiyahan magpakailanman."
+      },
+      "reflection": "True joy is found not in circumstances but in God's presence — and the path He leads us on is life itself.",
+      "quietTimePrompt": "Where have you been looking for joy apart from God's presence? Turn back to Him as your source today.",
+      "category": "hope"
+    },
+    {
+      "id": "v040",
+      "dayOfYear": 28,
+      "reference": "Psalm 27:1",
+      "translations": {
+        "NIV": "The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?",
+        "ESV": "The LORD is my light and my salvation; whom shall I fear? The LORD is the stronghold of my life; of whom shall I be afraid?",
+        "MBB": "Ang Panginoon ang aking liwanag at kaligtasan; sino ang aking katatakutan? Ang Panginoon ang kuta ng aking buhay; sino ang aking ikatatakot?"
+      },
+      "reflection": "David answers fear not with denial but with the identity of God — light, salvation, and stronghold.",
+      "quietTimePrompt": "What fear is gripping you today? Declare out loud that the Lord is your light and your stronghold.",
+      "category": "hope"
+    },
+    {
+      "id": "v041",
+      "dayOfYear": 32,
+      "reference": "Psalm 84:11",
+      "translations": {
+        "NIV": "For the Lord God is a sun and shield; the Lord bestows favor and honor; no good thing does he withhold from those whose walk is blameless.",
+        "ESV": "For the Lord God is a sun and shield; the Lord bestows favor and honor; no good thing does he withhold from those whose walk is blameless.",
+        "MBB": "For the Lord God is a sun and shield; the Lord bestows favor and honor; no good thing does he withhold from those whose walk is blameless."
+      },
+      "reflection": "God provides both warmth and protection — as the sun He lights our way, as a shield He guards our steps.",
+      "quietTimePrompt": "Do you believe God is holding back something good from you? Ask Him to help you trust His generosity.",
+      "category": "hope"
+    },
+    {
+      "id": "v042",
+      "dayOfYear": 38,
+      "reference": "Zephaniah 3:17",
+      "translations": {
+        "NIV": "The Lord your God is with you, the Mighty Warrior who saves. He will take great delight in you; in his love he will no longer rebuke you, but will rejoice over you with singing.",
+        "ESV": "The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing.",
+        "MBB": "Ang Panginoon mong Diyos ay nasa gitna mo, isang makapangyarihang manliligtas; magagalak siya sa iyo nang may tuwa; patatahimikin ka niya ng kanyang pagmamahal; magagalak siya sa iyo nang may malakas na pag-awit."
+      },
+      "reflection": "God is not merely tolerant of His people — He delights in them and sings over them like a rejoicing parent.",
+      "quietTimePrompt": "Can you imagine God singing over you right now? Sit quietly and receive His delight in you.",
+      "category": "hope"
+    },
+    {
+      "id": "v043",
+      "dayOfYear": 40,
+      "reference": "Matthew 5:3-4",
+      "translations": {
+        "NIV": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they will be comforted.",
+        "ESV": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they will be comforted.",
+        "MBB": "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they will be comforted."
+      },
+      "reflection": "Jesus redefines blessedness — the kingdom belongs to those who recognize their spiritual poverty, not their self-sufficiency.",
+      "quietTimePrompt": "In what area do you feel spiritually poor today? Bring that emptiness to Jesus and receive His blessing.",
+      "category": "hope"
+    },
+    {
+      "id": "v044",
+      "dayOfYear": 42,
+      "reference": "Romans 8:1",
+      "translations": {
+        "NIV": "Therefore, there is now no condemnation for those who are in Christ Jesus.",
+        "ESV": "There is therefore now no condemnation for those who are in Christ Jesus.",
+        "MBB": "Kaya nga, wala nang hatol na kaparusahan para sa mga nasa kay Cristo Jesus."
+      },
+      "reflection": "The verdict is final — for those in Christ, condemnation has been permanently removed, not merely suspended.",
+      "quietTimePrompt": "What guilt or condemnation have you been carrying that has already been removed in Christ? Release it now.",
+      "category": "hope"
+    },
+    {
+      "id": "v045",
+      "dayOfYear": 47,
+      "reference": "John 11:25-26",
+      "translations": {
+        "NIV": "Jesus said to her, 'I am the resurrection and the life. The one who believes in me will live, even though they die; and whoever lives by believing in me will never die. Do you believe this?'",
+        "ESV": "Jesus said to her, 'I am the resurrection and the life. The one who believes in me will live, even though they die; and whoever lives by believing in me will never die. Do you believe this?'",
+        "MBB": "Jesus said to her, 'I am the resurrection and the life. The one who believes in me will live, even though they die; and whoever lives by believing in me will never die. Do you believe this?'"
+      },
+      "reflection": "Jesus does not merely promise resurrection — He is resurrection itself, making eternal life a present reality for believers.",
+      "quietTimePrompt": "How would your view of death and loss change if you truly believed Jesus is your resurrection and life?",
+      "category": "hope"
+    },
+    {
+      "id": "v046",
+      "dayOfYear": 52,
+      "reference": "2 Corinthians 4:17",
+      "translations": {
+        "NIV": "For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all.",
+        "ESV": "For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all.",
+        "MBB": "For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all."
+      },
+      "reflection": "Paul calls present suffering 'light and momentary' not by minimizing pain but by magnifying the glory it produces.",
+      "quietTimePrompt": "What trouble feels heavy to you right now? Ask God to give you an eternal perspective on it today.",
+      "category": "hope"
+    },
+    {
+      "id": "v047",
+      "dayOfYear": 55,
+      "reference": "Hebrews 10:23",
+      "translations": {
+        "NIV": "Let us hold unswervingly to the hope we profess, for he who promised is faithful.",
+        "ESV": "Let us hold unswervingly to the hope we profess, for he who promised is faithful.",
+        "MBB": "Let us hold unswervingly to the hope we profess, for he who promised is faithful."
+      },
+      "reflection": "Our grip on hope does not depend on our strength but on God's faithfulness — He is the anchor behind the anchor.",
+      "quietTimePrompt": "In what area are you wavering in hope? Remember that the One who promised is faithful, even when you waver.",
+      "category": "hope"
+    },
+    {
+      "id": "v048",
+      "dayOfYear": 58,
+      "reference": "Philippians 1:6",
+      "translations": {
+        "NIV": "Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus.",
+        "ESV": "Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus.",
+        "MBB": "Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus."
+      },
+      "reflection": "God finishes what He starts — the good work of transformation in us is His project, not ours, and He will complete it.",
+      "quietTimePrompt": "Where do you feel unfinished or incomplete? Trust that God is still working and will bring it to completion.",
+      "category": "hope"
+    },
+    {
+      "id": "v049",
+      "dayOfYear": 62,
+      "reference": "2 Timothy 4:7",
+      "translations": {
+        "NIV": "I have fought the good fight, I have finished the race, I have kept the faith.",
+        "ESV": "I have fought the good fight, I have finished the race, I have kept the faith.",
+        "MBB": "I have fought the good fight, I have finished the race, I have kept the faith."
+      },
+      "reflection": "Paul's final words are a declaration of faithful endurance — the fight, the race, and the faith all completed by God's grace.",
+      "quietTimePrompt": "What race is God calling you to finish faithfully? Ask Him for the endurance to keep going.",
+      "category": "hope"
+    },
+    {
+      "id": "v050",
+      "dayOfYear": 65,
+      "reference": "2 Peter 1:3",
+      "translations": {
+        "NIV": "His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness.",
+        "ESV": "His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness.",
+        "MBB": "His divine power has given us everything we need for a godly life through our knowledge of him who called us by his own glory and goodness."
+      },
+      "reflection": "God has already provided all resources needed for godliness — the gap is in our knowledge of Him, not in His provision.",
+      "quietTimePrompt": "What do you feel you lack for living a godly life? Ask God to reveal what He has already provided.",
+      "category": "hope"
+    },
+    {
+      "id": "v051",
+      "dayOfYear": 68,
+      "reference": "1 John 5:4",
+      "translations": {
+        "NIV": "For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith.",
+        "ESV": "For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith.",
+        "MBB": "For everyone born of God overcomes the world. This is the victory that has overcome the world, even our faith."
+      },
+      "reflection": "Overcoming the world is not a future hope but a present identity — faith is the evidence of a victory already won.",
+      "quietTimePrompt": "What in the world feels like it is overcoming you? Remember your identity as one born of God who overcomes.",
+      "category": "hope"
+    },
+    {
+      "id": "v052",
+      "dayOfYear": 70,
+      "reference": "Jude 1:24-25",
+      "translations": {
+        "NIV": "To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy—to the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord.",
+        "ESV": "To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy—to the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord.",
+        "MBB": "To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy—to the only God our Savior be glory, majesty, power and authority, through Jesus Christ our Lord."
+      },
+      "reflection": "God not only saves but keeps us — His power guards us from stumbling and will present us faultless before His glory.",
+      "quietTimePrompt": "Where do you feel prone to stumbling? Entrust that area to the One who is able to keep you standing.",
+      "category": "hope"
+    },
+    {
+      "id": "v053",
+      "dayOfYear": 72,
+      "reference": "Revelation 1:8",
+      "translations": {
+        "NIV": "'I am the Alpha and the Omega,' says the Lord God, 'who is, and who was, and who is to come, the Almighty.'",
+        "ESV": "'I am the Alpha and the Omega,' says the Lord God, 'who is, and who was, and who is to come, the Almighty.'",
+        "MBB": "'I am the Alpha and the Omega,' says the Lord God, 'who is, and who was, and who is to come, the Almighty.'"
+      },
+      "reflection": "God spans all of time — He is the beginning, the end, and everything in between, and His power has no rival.",
+      "quietTimePrompt": "What feels out of control in your life right now? Place it before the Alpha and Omega who holds all time.",
+      "category": "hope"
+    },
+    {
+      "id": "v054",
+      "dayOfYear": 77,
+      "reference": "Revelation 22:13",
+      "translations": {
+        "NIV": "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.",
+        "ESV": "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.",
+        "MBB": "I am the Alpha and the Omega, the First and the Last, the Beginning and the End."
+      },
+      "reflection": "Jesus claims the first and last word over all creation — every story begins and ends with Him.",
+      "quietTimePrompt": "How does knowing Jesus is both the beginning and the end change how you view your current chapter?",
+      "category": "hope"
+    },
+    {
+      "id": "v055",
+      "dayOfYear": 80,
+      "reference": "1 Corinthians 1:18",
+      "translations": {
+        "NIV": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God.",
+        "ESV": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God.",
+        "MBB": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God."
+      },
+      "reflection": "The cross divides humanity into two responses — foolishness or power — and our answer reveals the condition of our heart.",
+      "quietTimePrompt": "Has the cross become familiar or even routine to you? Ask God to renew your wonder at its power.",
+      "category": "hope"
+    },
+    {
+      "id": "v056",
+      "dayOfYear": 82,
+      "reference": "Matthew 5:6",
+      "translations": {
+        "NIV": "Blessed are those who hunger and thirst for righteousness, for they will be filled.",
+        "ESV": "Blessed are those who hunger and thirst for righteousness, for they will be filled.",
+        "MBB": "Blessed are those who hunger and thirst for righteousness, for they will be filled."
+      },
+      "reflection": "Jesus promises satisfaction not to the satisfied but to the starving — spiritual hunger is the prerequisite for being filled.",
+      "quietTimePrompt": "How hungry are you for righteousness today? Ask God to increase your appetite for Him.",
+      "category": "hope"
+    },
+    {
+      "id": "v057",
+      "dayOfYear": 85,
+      "reference": "1 Thessalonians 4:16-17",
+      "translations": {
+        "NIV": "For the Lord himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and the dead in Christ will rise first. After that, we who are still alive and are left will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever.",
+        "ESV": "For the Lord himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and the dead in Christ will rise first. After that, we who are still alive and are left will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever.",
+        "MBB": "For the Lord himself will come down from heaven, with a loud command, with the voice of the archangel and with the trumpet call of God, and the dead in Christ will rise first. After that, we who are still alive and are left will be caught up together with them in the clouds to meet the Lord in the air. And so we will be with the Lord forever."
+      },
+      "reflection": "Paul describes the return of Christ with vivid detail — it will be unmistakable, triumphant, and culminate in eternal togetherness with the Lord.",
+      "quietTimePrompt": "How does the promise of Christ's return shape the way you live today? Are you living in readiness?",
+      "category": "hope"
+    },
+    {
+      "id": "v058",
+      "dayOfYear": 88,
+      "reference": "Isaiah 41:10",
+      "translations": {
+        "NIV": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+        "ESV": "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
+        "MBB": "Huwag kang matakot, sapagkat kasama mo ako; huwag kang mabagabag, sapagkat ako ang iyong Diyos. Palalakasin kita, oo, tutulungan kita, oo, aalalayan kita ng aking matuwid na kanang kamay."
+      },
+      "reflection": "God addresses fear with His presence and dismay with His identity — His strength and support are personal guarantees.",
+      "quietTimePrompt": "What fear or dismay is weighing on you today? Hear God saying 'I am with you' over that specific situation.",
+      "category": "peace"
+    },
+    {
+      "id": "v059",
+      "dayOfYear": 92,
+      "reference": "Matthew 6:33",
+      "translations": {
+        "NIV": "But seek first his kingdom and his righteousness, and all these things will be given to you as well.",
+        "ESV": "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+        "MBB": "Ngunit hanapin muna ninyo ang kanyang kaharian at ang kanyang katuwiran, at ang lahat ng mga bagay na ito ay idadagdag sa inyo."
+      },
+      "reflection": "Jesus reorders priorities — when God's kingdom comes first, our daily needs fall into their proper place.",
+      "quietTimePrompt": "What have you been seeking first instead of God's kingdom? What would it look like to reorder that today?",
+      "category": "peace"
+    },
+    {
+      "id": "v060",
+      "dayOfYear": 95,
+      "reference": "1 Peter 5:7",
+      "translations": {
+        "NIV": "Cast all your anxiety on him because he cares for you.",
+        "ESV": "Casting all your anxieties on him, because he cares for you.",
+        "MBB": "Ibulalas sa kanya ang lahat ng inyong mga kabalisahan, sapagkat siya ay nagmamalasakit sa inyo."
+      },
+      "reflection": "Anxiety is meant to be thrown, not carried — the reason is simple and profound: God genuinely cares for you.",
+      "quietTimePrompt": "What anxiety are you still carrying that God is asking you to cast onto Him? Let it go right now.",
+      "category": "peace"
+    },
+    {
+      "id": "v061",
+      "dayOfYear": 97,
+      "reference": "Romans 5:1",
+      "translations": {
+        "NIV": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ.",
+        "ESV": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ.",
+        "MBB": "Therefore, since we have been justified through faith, we have peace with God through our Lord Jesus Christ."
+      },
+      "reflection": "Peace with God is not a feeling to achieve but a status to receive — justification through faith ends our war with Him.",
+      "quietTimePrompt": "Do you live as though you are at peace with God, or still striving to earn it? Receive this finished peace today.",
+      "category": "peace"
+    },
+    {
+      "id": "v062",
+      "dayOfYear": 102,
+      "reference": "Psalm 91:1-2",
+      "translations": {
+        "NIV": "Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty. I will say of the Lord, 'He is my refuge and my fortress, my God, in whom I trust.'",
+        "ESV": "Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty. I will say of the Lord, 'He is my refuge and my fortress, my God, in whom I trust.'",
+        "MBB": "Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty. I will say of the Lord, 'He is my refuge and my fortress, my God, in whom I trust.'"
+      },
+      "reflection": "Dwelling in God's shelter is a deliberate, ongoing choice — rest is the natural result of living under His shadow.",
+      "quietTimePrompt": "Where are you dwelling spiritually — in fear or in God's shelter? Choose to move into His presence today.",
+      "category": "peace"
+    },
+    {
+      "id": "v063",
+      "dayOfYear": 107,
+      "reference": "Matthew 11:28-30",
+      "translations": {
+        "NIV": "Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light.",
+        "ESV": "Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.",
+        "MBB": "Halina sa akin, kayong lahat na nahihirapan at nabibigatan, at bibigyan ko kayo ng pahinga. Pasanin ninyo ang aking pamatok at matuto kayo mula sa akin, sapagkat ako ay maamo at mapagpakumbabang-puso, at makasusumpong kayo ng pahinga para sa inyong mga kaluluwa. Sapagkat ang aking pamatok ay maginhawa at ang aking pasanin ay magaan."
+      },
+      "reflection": "Jesus offers rest that replaces burdens — His yoke is shared, not solo, and His gentleness makes the learning bearable.",
+      "quietTimePrompt": "What burden are you carrying that Jesus is inviting you to exchange for His rest? Come to Him now.",
+      "category": "peace"
+    },
+    {
+      "id": "v064",
+      "dayOfYear": 110,
+      "reference": "Hebrews 4:16",
+      "translations": {
+        "NIV": "Let us then approach God's throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.",
+        "ESV": "Let us then approach God's throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.",
+        "MBB": "Let us then approach God's throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need."
+      },
+      "reflection": "God's throne is a throne of grace, not judgment — we are invited to approach boldly, especially when we feel weakest.",
+      "quietTimePrompt": "What do you need mercy and grace for right now? Approach God's throne confidently with that need.",
+      "category": "peace"
+    },
+    {
+      "id": "v065",
+      "dayOfYear": 112,
+      "reference": "Psalm 51:10",
+      "translations": {
+        "NIV": "Create in me a pure heart, O God, and renew a steadfast spirit within me.",
+        "ESV": "Create in me a pure heart, O God, and renew a steadfast spirit within me.",
+        "MBB": "Create in me a pure heart, O God, and renew a steadfast spirit within me."
+      },
+      "reflection": "David's prayer after his failure is not for repair but for recreation — only God can make a clean heart from a broken one.",
+      "quietTimePrompt": "What part of your heart needs God's creative touch today? Ask Him to make it pure and steadfast.",
+      "category": "peace"
+    },
+    {
+      "id": "v066",
+      "dayOfYear": 115,
+      "reference": "Psalm 62:1-2",
+      "translations": {
+        "NIV": "Truly my soul finds rest in God alone; my salvation comes from him. Truly he is my rock and my salvation; he is my fortress, I will never be shaken.",
+        "ESV": "Truly my soul finds rest in God alone; my salvation comes from him. Truly he is my rock and my salvation; he is my fortress, I will never be shaken.",
+        "MBB": "Truly my soul finds rest in God alone; my salvation comes from him. Truly he is my rock and my salvation; he is my fortress, I will never be shaken."
+      },
+      "reflection": "Rest for the soul is found exclusively in God — every other source is temporary, but He is an unshakable fortress.",
+      "quietTimePrompt": "Where have you been seeking rest apart from God? Redirect that search to Him alone today.",
+      "category": "peace"
+    },
+    {
+      "id": "v067",
+      "dayOfYear": 117,
+      "reference": "Psalm 73:26",
+      "translations": {
+        "NIV": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever.",
+        "ESV": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever.",
+        "MBB": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever."
+      },
+      "reflection": "Even when physical and emotional strength run out, God becomes the inner resource that never depletes.",
+      "quietTimePrompt": "In what area do you feel like you are failing? Let God be the strength of your heart in that place.",
+      "category": "peace"
+    },
+    {
+      "id": "v068",
+      "dayOfYear": 122,
+      "reference": "Isaiah 26:4",
+      "translations": {
+        "NIV": "Trust in the Lord forever, for the Lord, the Lord himself, is the Rock eternal.",
+        "ESV": "Trust in the Lord forever, for the Lord, the Lord himself, is the Rock eternal.",
+        "MBB": "Trust in the Lord forever, for the Lord, the Lord himself, is the Rock eternal."
+      },
+      "reflection": "Trust is commanded with an eternal horizon because God Himself is the Rock — unchanging and immovable across all time.",
+      "quietTimePrompt": "What situation tempts you to stop trusting God? Choose to trust the eternal Rock again today.",
+      "category": "peace"
+    },
+    {
+      "id": "v069",
+      "dayOfYear": 125,
+      "reference": "Isaiah 40:29",
+      "translations": {
+        "NIV": "He gives strength to the weary and increases the power of the weak.",
+        "ESV": "He gives strength to the weary and increases the power of the weak.",
+        "MBB": "He gives strength to the weary and increases the power of the weak."
+      },
+      "reflection": "God's strength is given to those who have run out of their own — weakness is not a barrier but the very qualification.",
+      "quietTimePrompt": "Where do you feel weak and weary right now? Receive God's promise of renewed strength for that area.",
+      "category": "peace"
+    },
+    {
+      "id": "v070",
+      "dayOfYear": 127,
+      "reference": "Jeremiah 31:3",
+      "translations": {
+        "NIV": "The Lord appeared to us in the past, saying: 'I have loved you with an everlasting love; I have drawn you with unfailing kindness.'",
+        "ESV": "The LORD appeared to him from far away. I have loved you with an everlasting love; therefore I have continued my faithfulness to you.",
+        "MBB": "Lumitaw ang Panginoon sa kanya mula sa malayo. 'Inibig kita ng walang hanggang pagmamahal; kaya naman patuloy kong ipinagpapanatili ang aking tapat na pagmamahal para sa iyo.'"
+      },
+      "reflection": "God's love has no beginning or end — it is everlasting, and His kindness is the gentle force that draws us to Himself.",
+      "quietTimePrompt": "How have you experienced God's unfailing kindness drawing you? Thank Him for a specific moment.",
+      "category": "peace"
+    },
+    {
+      "id": "v071",
+      "dayOfYear": 132,
+      "reference": "Habakkuk 3:19",
+      "translations": {
+        "NIV": "The Sovereign Lord is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights.",
+        "ESV": "The Sovereign Lord is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights.",
+        "MBB": "The Sovereign Lord is my strength; he makes my feet like the feet of a deer, he enables me to tread on the heights."
+      },
+      "reflection": "Even amid devastation, Habakkuk finds confidence — God gives sure-footed strength to navigate the highest and hardest places.",
+      "quietTimePrompt": "What heights seem impossible to reach? Ask God to make your feet as sure as a deer's for the climb.",
+      "category": "peace"
+    },
+    {
+      "id": "v072",
+      "dayOfYear": 137,
+      "reference": "Matthew 6:9-10",
+      "translations": {
+        "NIV": "'This, then, is how you should pray: Our Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven.'",
+        "ESV": "'This, then, is how you should pray: Our Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven.'",
+        "MBB": "'This, then, is how you should pray: Our Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven.'"
+      },
+      "reflection": "Jesus teaches us to begin prayer with God's name and God's will — aligning our hearts with His before we ask for anything.",
+      "quietTimePrompt": "How aligned is your will with God's will right now? Pray this prayer sincerely over your day.",
+      "category": "peace"
+    },
+    {
+      "id": "v073",
+      "dayOfYear": 140,
+      "reference": "2 Corinthians 12:9",
+      "translations": {
+        "NIV": "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.' Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.",
+        "ESV": "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.' Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.",
+        "MBB": "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.' Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me."
+      },
+      "reflection": "Grace is not merely enough — it is the perfect environment for God's power to be displayed through our acknowledged weakness.",
+      "quietTimePrompt": "What weakness are you hiding? Bring it into the light where Christ's power can rest on it.",
+      "category": "peace"
+    },
+    {
+      "id": "v074",
+      "dayOfYear": 142,
+      "reference": "Colossians 3:2",
+      "translations": {
+        "NIV": "Set your minds on things above, not on earthly things.",
+        "ESV": "Set your minds on things above, not on earthly things.",
+        "MBB": "Set your minds on things above, not on earthly things."
+      },
+      "reflection": "Where the mind goes, the heart follows — setting our thoughts on heavenly realities reorients our entire perspective.",
+      "quietTimePrompt": "What earthly thing has been dominating your thoughts? Redirect your mind to things above today.",
+      "category": "peace"
+    },
+    {
+      "id": "v075",
+      "dayOfYear": 145,
+      "reference": "1 Thessalonians 5:16-17",
+      "translations": {
+        "NIV": "Rejoice always, pray continually.",
+        "ESV": "Rejoice always, pray continually.",
+        "MBB": "Rejoice always, pray continually."
+      },
+      "reflection": "These two commands form a continuous rhythm — joy and prayer are not occasional events but a lifestyle of constant communion.",
+      "quietTimePrompt": "How can you build a rhythm of continual prayer into your day? Try turning your next worry into a prayer.",
+      "category": "peace"
+    },
+    {
+      "id": "v076",
+      "dayOfYear": 147,
+      "reference": "2 Thessalonians 3:3",
+      "translations": {
+        "NIV": "But the Lord is faithful, and he will strengthen you and protect you from the evil one.",
+        "ESV": "But the Lord is faithful, and he will strengthen you and protect you from the evil one.",
+        "MBB": "But the Lord is faithful, and he will strengthen you and protect you from the evil one."
+      },
+      "reflection": "Our security rests not in our own faithfulness but in God's — He both strengthens us from within and shields us from without.",
+      "quietTimePrompt": "Do you feel under spiritual attack? Claim God's promise to strengthen and protect you right now.",
+      "category": "peace"
+    },
+    {
+      "id": "v077",
+      "dayOfYear": 152,
+      "reference": "Psalm 121:1-2",
+      "translations": {
+        "NIV": "I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord, the Maker of heaven and earth.",
+        "ESV": "I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord, the Maker of heaven and earth.",
+        "MBB": "I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord, the Maker of heaven and earth."
+      },
+      "reflection": "The psalmist lifts his eyes beyond the hills to their Maker — help comes not from creation but from the Creator of all.",
+      "quietTimePrompt": "Where have you been looking for help? Lift your eyes higher to the Maker of heaven and earth.",
+      "category": "peace"
+    },
+    {
+      "id": "v078",
+      "dayOfYear": 155,
+      "reference": "Psalm 145:13",
+      "translations": {
+        "NIV": "Your kingdom is an everlasting kingdom, and your dominion endures through all generations.",
+        "ESV": "Your kingdom is an everlasting kingdom, and your dominion endures through all generations.",
+        "MBB": "Your kingdom is an everlasting kingdom, and your dominion endures through all generations."
+      },
+      "reflection": "Earthly kingdoms rise and fall, but God's rule is eternal — every generation is embraced by a dominion that never expires.",
+      "quietTimePrompt": "How does knowing God's kingdom is everlasting bring peace to your current uncertainties?",
+      "category": "peace"
+    },
+    {
+      "id": "v079",
+      "dayOfYear": 157,
+      "reference": "Isaiah 30:15",
+      "translations": {
+        "NIV": "This is what the Sovereign Lord, the Holy One of Israel, says: 'In repentance and rest is your salvation, in quietness and trust is your strength.'",
+        "ESV": "This is what the Sovereign Lord, the Holy One of Israel, says: 'In repentance and rest is your salvation, in quietness and trust is your strength.'",
+        "MBB": "This is what the Sovereign Lord, the Holy One of Israel, says: 'In repentance and rest is your salvation, in quietness and trust is your strength.'"
+      },
+      "reflection": "God ties salvation to repentance and rest, strength to quietness and trust — His ways are the opposite of striving.",
+      "quietTimePrompt": "Where are you striving instead of resting? Choose quietness and trust as your strength today.",
+      "category": "peace"
+    },
+    {
+      "id": "v080",
+      "dayOfYear": 160,
+      "reference": "Philippians 4:8",
+      "translations": {
+        "NIV": "Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.",
+        "ESV": "Finally, brothers, whatever is true, whatever is honorable, whatever is just, whatever is pure, whatever is lovely, whatever is commendable, if there is any excellence, if there is anything worthy of praise, think about these things.",
+        "MBB": "Sa wakas, mga kapatid, kung ano man ang totoo, kung ano man ang kagalang-galang, kung ano man ang matuwid, kung ano man ang dalisay, kung ano man ang kaibig-ibig, kung ano man ang kapuri-puri, kung may anumang kahusayan, kung may anumang bagay na kapuri-puri, isipin ninyo ang mga bagay na ito."
+      },
+      "reflection": "What we dwell on shapes who we become — Paul gives a filter for our thoughts that leads to lasting peace of mind.",
+      "quietTimePrompt": "What has been filling your mind lately? Choose one true and lovely thing to focus on today.",
+      "category": "peace"
+    },
+    {
+      "id": "v081",
+      "dayOfYear": 162,
+      "reference": "Romans 12:2",
+      "translations": {
+        "NIV": "Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God's will is—his good, pleasing and perfect will.",
+        "ESV": "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect.",
+        "MBB": "At huwag kayong makiayon sa mundong ito, kundi magbago kayo sa pamamagitan ng pagbabago ng inyong isipan, upang mapatunayan ninyo kung ano ang kalooban ng Diyos, kung ano ang mabuti at kaaya-aya at ganap."
+      },
+      "reflection": "Transformation is not external conformity but internal renewal — a changed mind produces a changed life.",
+      "quietTimePrompt": "What worldly pattern are you being pressured to conform to? Ask God to renew your mind against it.",
+      "category": "peace"
+    },
+    {
+      "id": "v082",
+      "dayOfYear": 167,
+      "reference": "Ephesians 6:10-11",
+      "translations": {
+        "NIV": "Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil's schemes.",
+        "ESV": "Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil's schemes.",
+        "MBB": "Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil's schemes."
+      },
+      "reflection": "Spiritual strength is borrowed from the Lord, and the armor is His provision — standing firm is only possible fully equipped.",
+      "quietTimePrompt": "What spiritual battle are you facing? Ask God to equip you with His armor for the stand you need to make.",
+      "category": "peace"
+    },
+    {
+      "id": "v083",
+      "dayOfYear": 170,
+      "reference": "Philippians 4:13",
+      "translations": {
+        "NIV": "I can do all this through him who gives me strength.",
+        "ESV": "I can do all things through him who strengthens me.",
+        "MBB": "Kaya ko ang lahat ng bagay sa pamamagitan niya na nagbibigay sa akin ng lakas."
+      },
+      "reflection": "Paul's famous line is about contentment in every circumstance — strength comes from Christ, not from within ourselves.",
+      "quietTimePrompt": "What do you feel inadequate to face today? Rely on Christ's strength rather than your own.",
+      "category": "faith"
+    },
+    {
+      "id": "v084",
+      "dayOfYear": 172,
+      "reference": "Psalm 119:105",
+      "translations": {
+        "NIV": "Your word is a lamp for my feet, a light on my path.",
+        "ESV": "Your word is a lamp to my feet and a light to my path.",
+        "MBB": "Ang iyong salita ay isang ilaw sa aking mga paa at isang liwanag sa aking landas."
+      },
+      "reflection": "Scripture illuminates the immediate next step and the broader direction — both the foot and the path are guided by God's word.",
+      "quietTimePrompt": "How often do you let God's word guide your daily decisions? Commit to seeking its light today.",
+      "category": "faith"
+    },
+    {
+      "id": "v085",
+      "dayOfYear": 175,
+      "reference": "2 Corinthians 5:7",
+      "translations": {
+        "NIV": "For we live by faith, not by sight.",
+        "ESV": "For we walk by faith, not by sight.",
+        "MBB": "Sapagkat namumuhay tayo sa pananampalataya, hindi sa paningin."
+      },
+      "reflection": "Sight sees what is; faith sees what will be — the Christian life is shaped by trust in the unseen, not confidence in the visible.",
+      "quietTimePrompt": "What are you seeing that tempts you to doubt? Choose to live by faith instead of sight today.",
+      "category": "faith"
+    },
+    {
+      "id": "v086",
+      "dayOfYear": 177,
+      "reference": "Colossians 1:16-17",
+      "translations": {
+        "NIV": "For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him. He is before all things, and in him all things hold together.",
+        "ESV": "For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him. He is before all things, and in him all things hold together.",
+        "MBB": "For in him all things were created: things in heaven and on earth, visible and invisible, whether thrones or powers or rulers or authorities; all things have been created through him and for him. He is before all things, and in him all things hold together."
+      },
+      "reflection": "Christ is not only Savior but Sustainer — every atom and every authority exists by Him and for Him, and He holds it all in place.",
+      "quietTimePrompt": "Does your view of Christ encompass His role as Creator and Sustainer of all things? Worship Him as such today.",
+      "category": "faith"
+    },
+    {
+      "id": "v087",
+      "dayOfYear": 182,
+      "reference": "Joshua 1:9",
+      "translations": {
+        "NIV": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.",
+        "ESV": "Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.",
+        "MBB": "Hindi ba kita inutos? Maging matapang at matibay ka. Huwag kang matakot at huwag kang mabagabag, sapagkat kasama mo ang Panginoon mong Diyos saan ka man pumunta."
+      },
+      "reflection": "Courage is commanded, not suggested — and it rests on the guarantee of God's presence wherever we go, not on our own bravery.",
+      "quietTimePrompt": "Where do you need courage today? Remember that God's presence goes with you into that situation.",
+      "category": "faith"
+    },
+    {
+      "id": "v088",
+      "dayOfYear": 185,
+      "reference": "John 15:5",
+      "translations": {
+        "NIV": "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.",
+        "ESV": "I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.",
+        "MBB": "Ako ang puno ng ubas; kayo ang mga sanga. Ang nananatili sa akin, at ako sa kanya, ay nagbubunga ng marami, sapagkat wala kayong magagawa nang wala ako."
+      },
+      "reflection": "Jesus uses the vine-branch image to show that fruitfulness is not about effort but about connection — abiding comes before producing.",
+      "quietTimePrompt": "Are you striving to produce fruit apart from abiding? Reconnect to the vine before doing anything else.",
+      "category": "faith"
+    },
+    {
+      "id": "v089",
+      "dayOfYear": 187,
+      "reference": "Romans 6:23",
+      "translations": {
+        "NIV": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+        "ESV": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
+        "MBB": "Sapagkat ang kabayaran ng kasalanan ay kamatayan, ngunit ang kaloob ng Diyos ay buhay na walang hanggan kay Cristo Jesus na ating Panginoon."
+      },
+      "reflection": "Paul presents the ultimate contrast — what sin earns versus what God gives — and the difference is not a wage but a gift.",
+      "quietTimePrompt": "Have you received God's gift of eternal life, or are you still earning sin's wages? Rest in the gift today.",
+      "category": "faith"
+    },
+    {
+      "id": "v090",
+      "dayOfYear": 190,
+      "reference": "Galatians 5:22-23",
+      "translations": {
+        "NIV": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law.",
+        "ESV": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.",
+        "MBB": "Ngunit ang bunga ng Espiritu ay pagmamahal, kagalakan, kapayapaan, pagtitiis, kabaitan, kabutihan, katapatan, kaamuan, pagpipigil sa sarili; laban sa mga bagay na ito ay walang kautusan."
+      },
+      "reflection": "The Spirit produces a character that no law can regulate — these fruits grow naturally from a life connected to God.",
+      "quietTimePrompt": "Which fruit of the Spirit is most visible in your life right now? Which one is least? Ask God to grow it.",
+      "category": "faith"
+    },
+    {
+      "id": "v091",
+      "dayOfYear": 192,
+      "reference": "Philippians 3:14",
+      "translations": {
+        "NIV": "I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.",
+        "ESV": "I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.",
+        "MBB": "I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus."
+      },
+      "reflection": "Paul's language is athletic — pressing on implies strain and focus, with eyes locked on the heavenly calling, not the past.",
+      "quietTimePrompt": "What is distracting you from pressing toward your heavenly calling? Refocus your eyes on the goal today.",
+      "category": "faith"
+    },
+    {
+      "id": "v092",
+      "dayOfYear": 197,
+      "reference": "2 Timothy 3:16-17",
+      "translations": {
+        "NIV": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.",
+        "ESV": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work.",
+        "MBB": "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness, so that the servant of God may be thoroughly equipped for every good work."
+      },
+      "reflection": "Scripture's divine origin gives it fourfold usefulness — it teaches truth, confronts error, corrects course, and trains character.",
+      "quietTimePrompt": "How is Scripture currently shaping your life? Ask God to use it to equip you more thoroughly.",
+      "category": "faith"
+    },
+    {
+      "id": "v093",
+      "dayOfYear": 202,
+      "reference": "1 Peter 2:9",
+      "translations": {
+        "NIV": "But you are a chosen people, a royal priesthood, a holy nation, God's special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+        "ESV": "But you are a chosen people, a royal priesthood, a holy nation, God's special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+        "MBB": "But you are a chosen people, a royal priesthood, a holy nation, God's special possession, that you may declare the praises of him who called you out of darkness into his wonderful light."
+      },
+      "reflection": "Identity precedes activity — we are chosen and called before we are sent, and our purpose is to declare God's praise.",
+      "quietTimePrompt": "Do you know your identity as God's chosen possession? Live today as someone called out of darkness.",
+      "category": "faith"
+    },
+    {
+      "id": "v094",
+      "dayOfYear": 205,
+      "reference": "Proverbs 16:3",
+      "translations": {
+        "NIV": "Commit to the Lord whatever you do, and he will establish your plans.",
+        "ESV": "Commit to the Lord whatever you do, and he will establish your plans.",
+        "MBB": "Commit to the Lord whatever you do, and he will establish your plans."
+      },
+      "reflection": "Commitment comes before establishment — when we entrust our plans to God, He gives them a foundation that lasts.",
+      "quietTimePrompt": "What plans have you not yet committed to God? Entrust them to Him and trust His establishing work.",
+      "category": "faith"
+    },
+    {
+      "id": "v095",
+      "dayOfYear": 207,
+      "reference": "Isaiah 55:8-9",
+      "translations": {
+        "NIV": "'For my thoughts are not your thoughts, neither are your ways my ways,' declares the Lord. 'As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.'",
+        "ESV": "'For my thoughts are not your thoughts, neither are your ways my ways,' declares the Lord. 'As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.'",
+        "MBB": "'For my thoughts are not your thoughts, neither are your ways my ways,' declares the Lord. 'As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.'"
+      },
+      "reflection": "The gap between God's thoughts and ours is as vast as the distance between heaven and earth — His wisdom is beyond our comprehension.",
+      "quietTimePrompt": "Where are you struggling to understand God's ways? Accept that His thoughts are higher than yours.",
+      "category": "faith"
+    },
+    {
+      "id": "v096",
+      "dayOfYear": 212,
+      "reference": "Ezekiel 36:26",
+      "translations": {
+        "NIV": "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh.",
+        "ESV": "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh.",
+        "MBB": "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh."
+      },
+      "reflection": "God promises not a repair but a replacement — a heart of stone replaced with one that can feel, respond, and love.",
+      "quietTimePrompt": "Where has your heart grown hard? Ask God to replace that stoniness with a responsive heart of flesh.",
+      "category": "faith"
+    },
+    {
+      "id": "v097",
+      "dayOfYear": 215,
+      "reference": "Micah 6:8",
+      "translations": {
+        "NIV": "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.",
+        "ESV": "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.",
+        "MBB": "He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God."
+      },
+      "reflection": "God's requirements are simple and clear — justice in action, mercy in affection, and humility in relationship with Him.",
+      "quietTimePrompt": "Which of these three — justice, mercy, humility — needs the most growth in your life today?",
+      "category": "faith"
+    },
+    {
+      "id": "v098",
+      "dayOfYear": 217,
+      "reference": "Matthew 7:7-8",
+      "translations": {
+        "NIV": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened.",
+        "ESV": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened.",
+        "MBB": "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you. For everyone who asks receives; the one who seeks finds; and to the one who knocks, the door will be opened."
+      },
+      "reflection": "Jesus uses three escalating verbs — ask, seek, knock — each with a guaranteed response from a generous Father.",
+      "quietTimePrompt": "What have you stopped asking, seeking, or knocking for? Resume that pursuit with confidence today.",
+      "category": "faith"
+    },
+    {
+      "id": "v099",
+      "dayOfYear": 220,
+      "reference": "Mark 11:24",
+      "translations": {
+        "NIV": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+        "ESV": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours.",
+        "MBB": "Therefore I tell you, whatever you ask for in prayer, believe that you have received it, and it will be yours."
+      },
+      "reflection": "Jesus links faith to prayer in a powerful way — believing reception precedes the actual possession of what we ask.",
+      "quietTimePrompt": "What are you praying for? Try praying with the belief that you have already received God's answer.",
+      "category": "faith"
+    },
+    {
+      "id": "v100",
+      "dayOfYear": 222,
+      "reference": "Luke 1:37",
+      "translations": {
+        "NIV": "For no word from God will ever fail.",
+        "ESV": "For nothing will be impossible with God.",
+        "MBB": "Sapagkat walang imposible sa Diyos."
+      },
+      "reflection": "Mary receives this promise about her impossible pregnancy — and it applies to every word God has ever spoken.",
+      "quietTimePrompt": "Which promise of God feels impossible to you? Remember that no word from God will ever fail.",
+      "category": "faith"
+    },
+    {
+      "id": "v101",
+      "dayOfYear": 227,
+      "reference": "Luke 10:27",
+      "translations": {
+        "NIV": "He answered, 'Love the Lord your God with all your heart and with all your soul and with all your strength and with all your mind'; and, 'Love your neighbor as yourself.'",
+        "ESV": "He answered, 'Love the Lord your God with all your heart and with all your soul and with all your strength and with all your mind'; and, 'Love your neighbor as yourself.'",
+        "MBB": "He answered, 'Love the Lord your God with all your heart and with all your soul and with all your strength and with all your mind'; and, 'Love your neighbor as yourself.'"
+      },
+      "reflection": "Jesus distills the entire law into love — vertical love for God and horizontal love for neighbor, both at full capacity.",
+      "quietTimePrompt": "Is there a neighbor you struggle to love? Ask God to help you love them as He loves you.",
+      "category": "faith"
+    },
+    {
+      "id": "v102",
+      "dayOfYear": 230,
+      "reference": "John 17:17",
+      "translations": {
+        "NIV": "Sanctify them by the truth; your word is truth.",
+        "ESV": "Sanctify them by the truth; your word is truth.",
+        "MBB": "Sanctify them by the truth; your word is truth."
+      },
+      "reflection": "Jesus prays for His disciples' sanctification — the agent of holiness is truth, and the source of truth is God's word.",
+      "quietTimePrompt": "How is God's word sanctifying you? Ask Him to use His truth to make you more holy today.",
+      "category": "faith"
+    },
+    {
+      "id": "v103",
+      "dayOfYear": 232,
+      "reference": "Galatians 6:9",
+      "translations": {
+        "NIV": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.",
+        "ESV": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.",
+        "MBB": "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up."
+      },
+      "reflection": "Doing good can be exhausting, but the harvest is guaranteed to those who persist — the timing belongs to God.",
+      "quietTimePrompt": "Where are you growing weary of doing good? Ask God for renewed strength to keep going until harvest.",
+      "category": "faith"
+    },
+    {
+      "id": "v104",
+      "dayOfYear": 235,
+      "reference": "James 1:5",
+      "translations": {
+        "NIV": "If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.",
+        "ESV": "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.",
+        "MBB": "Kung ang sinuman sa inyo ay kulang sa karunungan, humingi siya sa Diyos, na nagbibigay nang sagana sa lahat nang walang pag-aalinlangan, at ibibigay sa kanya."
+      },
+      "reflection": "God gives wisdom without criticism — He does not reproach us for our ignorance but meets our asking with generosity.",
+      "quietTimePrompt": "What decision do you need wisdom for? Ask God now, trusting He gives generously without finding fault.",
+      "category": "faith"
+    },
+    {
+      "id": "v105",
+      "dayOfYear": 237,
+      "reference": "James 4:7",
+      "translations": {
+        "NIV": "Submit yourselves, then, to God. Resist the devil, and he will flee from you.",
+        "ESV": "Submit yourselves, then, to God. Resist the devil, and he will flee from you.",
+        "MBB": "Submit yourselves, then, to God. Resist the devil, and he will flee from you."
+      },
+      "reflection": "Submission to God is the prerequisite for successful resistance — we cannot stand against evil unless we stand under God.",
+      "quietTimePrompt": "What temptation do you need to resist? First submit yourself to God, then resist in His strength.",
+      "category": "faith"
+    },
+    {
+      "id": "v106",
+      "dayOfYear": 242,
+      "reference": "1 Peter 3:15",
+      "translations": {
+        "NIV": "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have.",
+        "ESV": "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have.",
+        "MBB": "But in your hearts revere Christ as Lord. Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have."
+      },
+      "reflection": "Apologetics begins with worship — revering Christ as Lord in the heart precedes giving reasons for our hope to others.",
+      "quietTimePrompt": "Are you prepared to explain your hope to someone today? Let your reverence for Christ shape your readiness.",
+      "category": "faith"
+    },
+    {
+      "id": "v107",
+      "dayOfYear": 245,
+      "reference": "1 Corinthians 16:13",
+      "translations": {
+        "NIV": "Be on your guard; stand firm in the faith; be courageous; be strong.",
+        "ESV": "Be on your guard; stand firm in the faith; be courageous; be strong.",
+        "MBB": "Be on your guard; stand firm in the faith; be courageous; be strong."
+      },
+      "reflection": "Paul stacks four short commands — vigilance, firmness, courage, and strength form the posture of a mature believer.",
+      "quietTimePrompt": "Which of these four commands do you most need today? Ask God to build that quality in you.",
+      "category": "faith"
+    },
+    {
+      "id": "v108",
+      "dayOfYear": 247,
+      "reference": "James 1:17",
+      "translations": {
+        "NIV": "Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.",
+        "ESV": "Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.",
+        "MBB": "Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows."
+      },
+      "reflection": "All goodness traces back to God — He is the unchanging source, not a flickering light but the steady Father of lights.",
+      "quietTimePrompt": "What good gift have you been taking for granted? Trace it back to God and thank Him for it now.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v109",
+      "dayOfYear": 252,
+      "reference": "1 John 4:19",
+      "translations": {
+        "NIV": "We love because he first loved us.",
+        "ESV": "We love because he first loved us.",
+        "MBB": "Mahal natin siya sapagkat siya ang unang nagmahal sa atin."
+      },
+      "reflection": "Our capacity to love is entirely responsive — we do not initiate love but reflect the love God first poured into us.",
+      "quietTimePrompt": "How have you experienced God's love first? Let gratitude for that love fuel your love for others today.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v110",
+      "dayOfYear": 257,
+      "reference": "Ephesians 2:10",
+      "translations": {
+        "NIV": "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.",
+        "ESV": "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.",
+        "MBB": "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do."
+      },
+      "reflection": "We are not accidents but artwork — God designed us with purpose, and the good works were prepared before we were.",
+      "quietTimePrompt": "What good work has God prepared for you today? Thank Him for designing you for it in advance.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v111",
+      "dayOfYear": 260,
+      "reference": "Psalm 139:14",
+      "translations": {
+        "NIV": "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.",
+        "ESV": "I praise you, for I am fearfully and wonderfully made. Wonderful are your works; my soul knows it very well.",
+        "MBB": "Pupurihin kita, sapagkat kamangha-mangha at kahanga-hangang ang aking pagkakagawa; kamangha-mangha ang iyong mga gawa, at alam ito ng aking kaluluwa nang lubos."
+      },
+      "reflection": "David's self-worth is rooted in God's craftsmanship — wonder at being made leads naturally to praise for the Maker.",
+      "quietTimePrompt": "Do you see yourself as God's wonderful work? Thank Him for how He fearfully and wonderfully made you.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v112",
+      "dayOfYear": 262,
+      "reference": "Malachi 3:10",
+      "translations": {
+        "NIV": "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this, says the Lord Almighty, and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.",
+        "ESV": "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this, says the Lord Almighty, and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it.",
+        "MBB": "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this, says the Lord Almighty, and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it."
+      },
+      "reflection": "God invites us to test His generosity — faithful giving opens floodgates of blessing that exceed our capacity to contain.",
+      "quietTimePrompt": "How has God blessed your generosity? Thank Him for a specific time He poured out more than you expected.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v113",
+      "dayOfYear": 265,
+      "reference": "John 1:14",
+      "translations": {
+        "NIV": "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+        "ESV": "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth.",
+        "MBB": "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth."
+      },
+      "reflection": "The incarnation is the ultimate act of nearness — God did not stay distant but moved into our neighborhood in the flesh.",
+      "quietTimePrompt": "Take a moment to marvel that God became flesh for you. Thank Jesus for coming near in grace and truth.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v114",
+      "dayOfYear": 267,
+      "reference": "1 Corinthians 13:4-7",
+      "translations": {
+        "NIV": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.",
+        "ESV": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres.",
+        "MBB": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres."
+      },
+      "reflection": "Paul paints love as a verb, not a feeling — it is defined by what it does and does not do, always oriented toward the other.",
+      "quietTimePrompt": "Which quality of love in this passage do you most need to grow in? Thank God for showing you this love.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v115",
+      "dayOfYear": 272,
+      "reference": "Ephesians 4:32",
+      "translations": {
+        "NIV": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+        "ESV": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+        "MBB": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you."
+      },
+      "reflection": "Our forgiveness of others is measured by God's forgiveness of us — the standard is not fairness but grace.",
+      "quietTimePrompt": "Who do you need to forgive as God forgave you? Thank Him for His forgiveness and extend it freely.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v116",
+      "dayOfYear": 275,
+      "reference": "Philippians 2:3-4",
+      "translations": {
+        "NIV": "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.",
+        "ESV": "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others.",
+        "MBB": "Do nothing out of selfish ambition or vain conceit. Rather, in humility value others above yourselves, not looking to your own interests but each of you to the interests of the others."
+      },
+      "reflection": "Humility is not thinking less of yourself but thinking of yourself less — it turns attention outward toward others' needs.",
+      "quietTimePrompt": "Whose interests have you been overlooking? Ask God to help you value them above yourself today.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v117",
+      "dayOfYear": 277,
+      "reference": "1 Timothy 6:6-7",
+      "translations": {
+        "NIV": "But godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it.",
+        "ESV": "But godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it.",
+        "MBB": "But godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it."
+      },
+      "reflection": "True wealth is not accumulation but contentment — godliness paired with satisfaction is the greatest gain possible.",
+      "quietTimePrompt": "What would help you become more content today? Thank God for what you have rather than longing for more.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v118",
+      "dayOfYear": 280,
+      "reference": "Titus 3:5",
+      "translations": {
+        "NIV": "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit.",
+        "ESV": "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit.",
+        "MBB": "He saved us, not because of righteous things we had done, but because of his mercy. He saved us through the washing of rebirth and renewal by the Holy Spirit."
+      },
+      "reflection": "Salvation is mercy-based, not merit-based — we are washed and renewed by the Spirit, not by our own righteous deeds.",
+      "quietTimePrompt": "Do you still try to earn what God has freely given? Thank Him that salvation is entirely His mercy.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v119",
+      "dayOfYear": 282,
+      "reference": "1 Peter 4:10",
+      "translations": {
+        "NIV": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms.",
+        "ESV": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms.",
+        "MBB": "Each of you should use whatever gift you have received to serve others, as faithful stewards of God's grace in its various forms."
+      },
+      "reflection": "Gifts are not possessions but stewardships — they are entrusted to us by God's grace to be distributed through service.",
+      "quietTimePrompt": "What gift has God given you? How can you use it to serve someone today as a faithful steward?",
+      "category": "gratitude"
+    },
+    {
+      "id": "v120",
+      "dayOfYear": 287,
+      "reference": "1 John 1:9",
+      "translations": {
+        "NIV": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+        "ESV": "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
+        "MBB": "Kung ipinagtapat natin ang ating mga kasalanan, siya ay tapat at matuwid na magpapatawad sa ating mga kasalanan at maglilinis sa atin mula sa lahat ng kalikuan."
+      },
+      "reflection": "Confession triggers a guaranteed response — God's faithfulness and justice ensure both forgiveness and cleansing.",
+      "quietTimePrompt": "What sin do you need to confess today? Receive His faithful forgiveness and cleansing with gratitude.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v121",
+      "dayOfYear": 290,
+      "reference": "Proverbs 3:9-10",
+      "translations": {
+        "NIV": "Honor the Lord with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing, and your vats will brim over with new wine.",
+        "ESV": "Honor the Lord with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing, and your vats will brim over with new wine.",
+        "MBB": "Honor the Lord with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing, and your vats will brim over with new wine."
+      },
+      "reflection": "Honoring God with our first and best is an act of gratitude that opens the door to His overflowing provision.",
+      "quietTimePrompt": "How are you honoring God with your resources? Thank Him for His provision and commit your firstfruits to Him.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v122",
+      "dayOfYear": 292,
+      "reference": "1 John 3:1",
+      "translations": {
+        "NIV": "See what great love the Father has lavished on us, that we should be called children of God! And that is what we are!",
+        "ESV": "See what kind of love the Father has given to us, that we should be called children of God; and so we are.",
+        "MBB": "Tingnan ninyo kung gaano kalaking pagmamahal ang ipinagkaloob ng Ama sa atin, upang tayo ay tawaging mga anak ng Diyos; at iyon nga tayo."
+      },
+      "reflection": "God's love is not stingy but lavish — He does not merely tolerate us but adopts us as His own children.",
+      "quietTimePrompt": "Sit with the truth that you are God's child. Thank Him for lavishing His love on you in this way.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v123",
+      "dayOfYear": 295,
+      "reference": "Psalm 37:4",
+      "translations": {
+        "NIV": "Take delight in the Lord, and he will give you the desires of your heart.",
+        "ESV": "Delight yourself in the LORD, and he will give you the desires of your heart.",
+        "MBB": "Magsaya ka sa Panginoon, at bibigyan ka niya ng mga hangarin ng iyong puso."
+      },
+      "reflection": "Delighting in God reshapes our desires — when we find our joy in Him, our wants align with His will and are fulfilled.",
+      "quietTimePrompt": "What does it mean for you to delight in the Lord today? Thank Him for the joy of knowing Him.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v124",
+      "dayOfYear": 297,
+      "reference": "John 3:17",
+      "translations": {
+        "NIV": "For God did not send his Son into the world to condemn the world, but to save the world through him.",
+        "ESV": "For God did not send his Son into the world to condemn the world, but in order that the world might be saved through him.",
+        "MBB": "Sapagkat hindi sinugo ng Diyos ang kanyang Anak sa mundo upang hatulan ang mundo, kundi upang ang mundo ay maligtas sa pamamagitan niya."
+      },
+      "reflection": "Jesus came not with a sentence but with a rescue — God's purpose in sending His Son was salvation, not condemnation.",
+      "quietTimePrompt": "Have you been living as though God is condemning you? Thank Him that Jesus came to save, not to condemn.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v125",
+      "dayOfYear": 302,
+      "reference": "John 10:10",
+      "translations": {
+        "NIV": "The thief comes only to steal and kill and destroy; I have come that they may have life, and have it to the full.",
+        "ESV": "The thief comes only to steal and kill and destroy. I came that they may have life and have it abundantly.",
+        "MBB": "Ang magnanakaw ay pumaparito lamang upang magnakaw at pumatay at manira. Naparito ako upang magkaroon sila ng buhay at magkaroon ng kasaganaan."
+      },
+      "reflection": "Jesus contrasts His purpose with the enemy's — He offers not mere survival but abundant, overflowing life.",
+      "quietTimePrompt": "Are you experiencing the abundant life Jesus offers? Thank Him for coming to give you life to the full.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v126",
+      "dayOfYear": 305,
+      "reference": "Revelation 3:20",
+      "translations": {
+        "NIV": "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.",
+        "ESV": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.",
+        "MBB": "Narito, nakatayo ako sa pintuan at tumatawag. Kung ang sinuman ay marinig ang aking tinig at buksan ang pintuan, papasok ako sa kanya at kakain ako kasama niya, at siya kasama ko."
+      },
+      "reflection": "Jesus stands not demanding entry but inviting it — the door opens from the inside, and the result is intimate fellowship.",
+      "quietTimePrompt": "What door have you been keeping closed to Jesus? Open it and thank Him for wanting to share fellowship with you.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v127",
+      "dayOfYear": 307,
+      "reference": "1 Corinthians 10:13",
+      "translations": {
+        "NIV": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.",
+        "ESV": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.",
+        "MBB": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it."
+      },
+      "reflection": "Temptation is universal but bounded — God's faithfulness guarantees both a limit and an escape route for every trial.",
+      "quietTimePrompt": "What temptation feels overwhelming? Thank God for His faithfulness and look for the way out He provides.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v128",
+      "dayOfYear": 310,
+      "reference": "John 8:32",
+      "translations": {
+        "NIV": "Then you will know the truth, and the truth will set you free.",
+        "ESV": "And you will know the truth, and the truth will set you free.",
+        "MBB": "At makikilala ninyo ang katotohanan, at ang katotohanan ang magpapalaya sa inyo."
+      },
+      "reflection": "Freedom is not the absence of boundaries but the presence of truth — knowing the truth liberates from every form of bondage.",
+      "quietTimePrompt": "What lie has been holding you captive? Thank God that His truth can set you free from it.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v129",
+      "dayOfYear": 312,
+      "reference": "Acts 1:8",
+      "translations": {
+        "NIV": "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.",
+        "ESV": "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.",
+        "MBB": "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth."
+      },
+      "reflection": "Power is given for a purpose — the Spirit's empowerment equips us to be witnesses, starting locally and extending globally.",
+      "quietTimePrompt": "Where is God sending you as a witness? Thank Him for the Spirit's power that equips you to go.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v130",
+      "dayOfYear": 317,
+      "reference": "Romans 10:9",
+      "translations": {
+        "NIV": "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved.",
+        "ESV": "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved.",
+        "MBB": "If you declare with your mouth, 'Jesus is Lord,' and believe in your heart that God raised him from the dead, you will be saved."
+      },
+      "reflection": "Salvation involves both mouth and heart — outward confession and inward belief together secure the promise of salvation.",
+      "quietTimePrompt": "Have you declared Jesus as Lord with both your mouth and your heart? Thank God for the salvation He promises.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v131",
+      "dayOfYear": 320,
+      "reference": "Romans 3:23-24",
+      "translations": {
+        "NIV": "For all have sinned and fall short of the glory of God, and all are justified freely by his grace through the redemption that came by Christ Jesus.",
+        "ESV": "For all have sinned and fall short of the glory of God, and are justified by his grace as a gift, through the redemption that is in Christ Jesus.",
+        "MBB": "Sapagkat ang lahat ay nagkasala at kulang sa kaluwalhatian ng Diyos, at sila ay inaring-ganap nang walang bayad sa pamamagitan ng kanyang biyaya sa pamamagitan ng pagtutubos na nasa kay Cristo Jesus."
+      },
+      "reflection": "Universal sin is met by universal grace — the same 'all' that falls short is the 'all' that is justified freely through Christ.",
+      "quietTimePrompt": "Do you still feel you fall too short for grace? Thank God that His justification is free and covers all.",
+      "category": "gratitude"
+    },
+    {
+      "id": "v132",
+      "dayOfYear": 322,
+      "reference": "Hebrews 11:6",
+      "translations": {
+        "NIV": "And without faith it is impossible to please God, because anyone who comes to him must believe that he exists and that he rewards those who earnestly seek him.",
+        "ESV": "And without faith it is impossible to please him, for whoever would draw near to God must believe that he exists and that he rewards those who seek him.",
+        "MBB": "At kung wala ang pananampalataya ay imposibleng makalugod sa kanya, sapagkat ang sinumang lumalapit sa Diyos ay dapat na maniniwala na siya ay umiiral at na siya ay nagbibigay-gantimpala sa mga naghahanap sa kanya."
+      },
+      "reflection": "Faith is both a belief in God's existence and a trust in His generosity — seeking Him earnestly is rewarded, not ignored.",
+      "quietTimePrompt": "Are you earnestly seeking God today? Thank Him for the promise that He rewards those who seek Him.",
+      "category": "gratitude"
+    }
+  ]
+}
