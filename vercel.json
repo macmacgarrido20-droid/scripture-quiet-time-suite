@@ -1,5 +1,4 @@
 {
-  "rootDirectory": "web",
   "rewrites": [
     { "source": "/", "destination": "/dashboard.html" }
   ]
